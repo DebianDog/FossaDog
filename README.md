@@ -30,7 +30,7 @@ Full LZ4 squashfs support (compression and loading modules)
 
 Systemd is enabled by default.    
 
-**Download :**    
+### Download :    
 Iso 64-bit, all fimware included (e.g. for WiFi): [FossaDog-2020-08-13_64-bit.iso](https://github.com/DebianDog/FossaDog/releases/download/0.1/FossaDog-2020-08-13_64-bit.iso) **Size: 535MB**            
 Md5sum: [FossaDog-2020-08-13_64-bit.md5](https://github.com/DebianDog/FossaDog/releases/download/0.1/FossaDog-2020-08-13_64-bit.md5)             
 
