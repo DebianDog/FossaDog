@@ -2,12 +2,12 @@
 (Ubuntu minimal "live")  
 
 **FossaDog is a fork of "DebianDog"** with the difference that it's Ubuntu based.   
-See also for Debiandog history: [Here](https://debiandog.github.io/doglinux/zz07about.html){:target="_blank"}   
-DebianDog full credits: [Here](https://github.com/DebianDog/Wheezy/blob/master/Credits.md){:target="_blank"}  
+See also for Debiandog history: [Here](https://debiandog.github.io/doglinux/zz07about.html)     
+DebianDog full credits: [Here](https://github.com/DebianDog/Wheezy/blob/master/Credits.md)    
 
-[Thread on Puppy Linux forum](http://murga-linux.com/puppy/viewtopic.php?t=113210){:target="_blank"}   
+[Thread on Puppy Linux forum](http://murga-linux.com/puppy/viewtopic.php?t=113210)    
 
-**[See here for Changes and Fixes information](http://murga-linux.com/puppy/viewtopic.php?p=989364#989364)**   
+**[See here for Changes and Fixes information](http://murga-linux.com/puppy/viewtopic.php?p=989364#989364)**     
 
 Full access to Ubuntu repositories by using apt-get (from terminal) or from Synaptic Package Manager (GUI) 
     
