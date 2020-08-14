@@ -420,6 +420,7 @@ opt/firefox/browser/chrome/icons/default/default32.png	    firefox-apulse
 opt/firefox/browser/chrome/icons/default/default48.png	    firefox-apulse
 opt/firefox/browser/chrome/icons/default/default64.png	    firefox-apulse
 opt/firefox/browser/crashreporter-override.ini		    firefox-apulse
+opt/firefox/browser/features/doh-rollout@mozilla.org.xpi    firefox-apulse
 opt/firefox/browser/features/formautofill@mozilla.org.xpi   firefox-apulse
 opt/firefox/browser/features/screenshots@mozilla.org.xpi    firefox-apulse
 opt/firefox/browser/features/webcompat-reporter@mozilla.org.xpi firefox-apulse
@@ -443,6 +444,7 @@ opt/firefox/gtk2/libmozgtk.so				    firefox-apulse
 opt/firefox/icons/updater.png				    firefox-apulse
 opt/firefox/libfreeblpriv3.chk				    firefox-apulse
 opt/firefox/libfreeblpriv3.so				    firefox-apulse
+opt/firefox/libgraphitewasm.so				    firefox-apulse
 opt/firefox/liblgpllibs.so				    firefox-apulse
 opt/firefox/libmozavcodec.so				    firefox-apulse
 opt/firefox/libmozavutil.so				    firefox-apulse
@@ -456,6 +458,7 @@ opt/firefox/libnssckbi.so				    firefox-apulse
 opt/firefox/libnssdbm3.chk				    firefox-apulse
 opt/firefox/libnssdbm3.so				    firefox-apulse
 opt/firefox/libnssutil3.so				    firefox-apulse
+opt/firefox/liboggwasm.so				    firefox-apulse
 opt/firefox/libplc4.so					    firefox-apulse
 opt/firefox/libplds4.so					    firefox-apulse
 opt/firefox/libsmime3.so				    firefox-apulse
@@ -475,6 +478,9 @@ opt/firefox/removed-files				    firefox-apulse
 opt/firefox/update-settings.ini				    firefox-apulse
 opt/firefox/updater					    firefox-apulse
 opt/firefox/updater.ini					    firefox-apulse
+opt/firefox/updates.xml					    firefox-apulse
+opt/firefox/updates/backup-update.log			    firefox-apulse
+opt/firefox/updates/last-update.log			    firefox-apulse
 opt/stream2chromecast/LICENSE				    stream2chromecast
 opt/stream2chromecast/README.md				    stream2chromecast
 opt/stream2chromecast/cc_device_finder.py		    stream2chromecast
@@ -599,7 +605,7 @@ share/doc/scrox/scrot/copyright				    scrox
 usr/bin/Ceni						    ceni
 usr/bin/Frisbee						    frisbee
 usr/bin/Xdialog						    gtkdialog
-usr/bin/apulse						    apulse,firefox-apulse
+usr/bin/apulse						    firefox-apulse,apulse
 usr/bin/azpainter					    azpainter
 usr/bin/bacon						    bacon
 usr/bin/bacon.sh					    bacon
@@ -744,12 +750,12 @@ usr/lib/X11/mini-icons/network_tray-xpm/wifieth-both.xpm    frisbee
 usr/lib/X11/mini-icons/network_tray-xpm/wifieth-in.xpm	    frisbee
 usr/lib/X11/mini-icons/network_tray-xpm/wifieth-none.xpm    frisbee
 usr/lib/X11/mini-icons/network_tray-xpm/wifieth-out.xpm	    frisbee
-usr/lib/apulse/libpulse-mainloop-glib.so		    apulse,firefox-apulse
-usr/lib/apulse/libpulse-mainloop-glib.so.0		    apulse,firefox-apulse
-usr/lib/apulse/libpulse-simple.so			    apulse,firefox-apulse
-usr/lib/apulse/libpulse-simple.so.0			    apulse,firefox-apulse
-usr/lib/apulse/libpulse.so				    apulse,firefox-apulse
-usr/lib/apulse/libpulse.so.0				    apulse,firefox-apulse
+usr/lib/apulse/libpulse-mainloop-glib.so		    firefox-apulse,apulse
+usr/lib/apulse/libpulse-mainloop-glib.so.0		    firefox-apulse,apulse
+usr/lib/apulse/libpulse-simple.so			    firefox-apulse,apulse
+usr/lib/apulse/libpulse-simple.so.0			    firefox-apulse,apulse
+usr/lib/apulse/libpulse.so				    firefox-apulse,apulse
+usr/lib/apulse/libpulse.so.0				    firefox-apulse,apulse
 usr/lib/dhcpcd/X11/mini-icons/network_tray		    frisbee
 usr/lib/dhcpcd/X11/mini-icons/network_tray-xpm/dead.xpm	    frisbee
 usr/lib/dhcpcd/X11/mini-icons/network_tray-xpm/ethernet-active.xpm frisbee

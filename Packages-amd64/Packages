@@ -1691,6 +1691,25 @@ Description: Monitor color adjustment tool
  and the redshift commandline utility (yad and redshift are builtin) 
  Options are: Manual mode and Auto mode, see 'Redshift Help' (right-click on icon)
 
+Package: firefox-apulse
+Architecture: amd64
+Version: 1:79.0
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 153000
+Depends: libc6, libgtk-3-0, libatomic1, apulse
+Replaces: apulse
+Filename: ./Extra/firefox-apulse_79.0_amd64.deb
+Size: 57853796
+MD5sum: e6f2b16c1a923a43c3d48ae04a0b69ec
+SHA1: a8891853f9f1c62d5bb7aaf25925d8335d69d3e7
+SHA256: 80bf0c5216b8281452e8f6ffdbb005b083e7c97bdfa36a25a0e6eac3f44e8f9e
+SHA512: 75c1819d9bebe45647d47f0fae0695bfa1b9c7306f1a518828071b52b4efd97a2100dc1de76670439765344e7b90bee9c80a104052db76d096cb7a85aa514b29
+Description: Firefox from the beta update channel
+ - This to make sound work by running: apulse /opt/firefox/firefox
+ - No change required in about:config
+
 Package: peasyscale
 Architecture: amd64
 Version: 2.0
