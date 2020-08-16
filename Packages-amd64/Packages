@@ -630,6 +630,23 @@ Description: Firewall-ng by 01micko, based on Alien Bob's Firewall
 
 Package: geany
 Architecture: amd64
+Version: 1:1.28-1
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 1200
+Depends: libatk1.0-0, libc6, libcairo2, libgcc1, libgdk-pixbuf2.0-0, libglib2.0-0, libgtk2.0-0, libpango-1.0-0, libpangocairo-1.0-0, libstdc++6
+Replaces: geany-common
+Filename: ./Extra/geany_1.28-1_amd64.deb
+Size: 2892792
+MD5sum: 84c99214c183f91f48d50e77511bfb88
+SHA1: e0c961840c1529638d149ac57e61eb990f0ccb36
+SHA256: 0d603e067bf2090ecc231a7e64af83a6b873552d162d6b0851e84e5d25e0a6ec
+SHA512: ccb4ba0b260dbbcf43994a623aad01eba0419ad292fc6dcacaf995ff292ad3e3dc693dc2c2f8b74a21e7f5e4abfbea3d7faec6a0883c22454c348de76f6e4da6
+Description: Advanced text editor
+
+Package: geany
+Architecture: amd64
 Version: 1:1.28
 Priority: optional
 Section: utilities
@@ -857,6 +874,27 @@ Description: The iupluacontrols-xenialdog64-gtk2:
  functionality such as matrix drawing.
  iupluacontrols-xenialdog64-gtk2 by tecgraf-pkg-wiak.
 
+Package: leafpad
+Architecture: amd64
+Version: 0.8.18.1-5
+Priority: optional
+Section: editors
+Maintainer: Paulo Roberto Alves de Oliveira (aka kretcheu) <kretcheu@gmail.com>
+Installed-Size: 454
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.24.0), libgtk2.0-0 (>= 2.10.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0)
+Suggests: evince-gtk
+Filename: ./Extra/leafpad_0.8.18.1-5_amd64.deb
+Size: 90856
+MD5sum: 931da2e2cfe7c9c9d43bc5509d483dbc
+SHA1: 974aee2de0f887ebcd9b4cdc6507b68ae843482f
+SHA256: bff49aa2d41086606dcfaabf3f0f89c28c1f9ca64ea800126c4f988854313773
+SHA512: d40cccf2247d7e419539daff772cb7d95efeccc868fca9295fb4a8dce660090990c7e1e91e8ba6085a130a4764e64b6358fc67d74b2eabfdfce987528119bdc6
+Homepage: http://tarot.freeshell.org/leafpad/
+Description: GTK+ based simple text editor
+ Leafpad is a simple GTK+ based text editor with user interface
+ similar to Notepad. It aims to be lighter than Gedit and KWrite,
+ and to be as useful as them.
+
 Package: libass5
 Architecture: amd64
 Version: 1:0.13.4-2
@@ -1046,6 +1084,34 @@ SHA256: a1239eb81c94bf8cd16e9ee44a2c4a488ff7dae4ec5d0368a223414ab793cee6
 SHA512: 93db2a05a72731cc547590f5cad3324f3e521ddce21bdb41b3b6c166b1039a99876795c56627e4e3ea4019369adfdc0191e833c79eef6e4b9f70671f11b19890
 Description: DVD decryption library
   compiled from source in Stretch-Live-64bit
+
+Package: libdvdread4
+Architecture: amd64
+Version: 6.0.1-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libdvdread
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 176
+Depends: libc6 (>= 2.14)
+Recommends: libdvdnav4
+Suggests: libdvdcss2
+Filename: ./Extra/libdvdread4_6.0.1-1_amd64.deb
+Size: 85348
+MD5sum: 1af22c8090da0107b89f239169e7790e
+SHA1: 8dd2b83e2b122ee90a7da1231a78287cb4270c71
+SHA256: 68621b27c8d2334c225a9d2de48acca21e51f0a7517674ba1a699e9d81a168f3
+SHA512: 8ff0b05b240270249a4b98576bf2001a60e3872afd162810c5f481b483148e61ca55b15b0b3f3fd1a8d7ee349f53e5c9ad3638ba0c847632721d05731c97bd29
+Homepage: http://dvdnav.mplayerhq.hu/
+Description: library for reading DVDs
+ libdvdread provides the functionality that is required to access many DVDs. It
+ parses IFO files, reads NAV-blocks, and performs CSS authentication and
+ descrambling.
+ .
+ libdvdread probes for libdvdcss at runtime and if found, will use it to
+ decrypt sections of the DVD as necessary. libdvdcss needs to be installed from
+ third-party repositories (see README.css), it's not included in Debian.
 
 Package: libesd0
 Architecture: amd64
@@ -1467,6 +1533,29 @@ Description: mplayer/mplayer2 based video player, minimal build
  .
  This package is not part of Debian. It was created by mpv-build scripts with
  statically linked ffmpeg (not libav) and libass from upstream.
+
+Package: multiarch-support
+Architecture: amd64
+Version: 2.27-3ubuntu1.2
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: glibc
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Installed-Size: 243
+Depends: libc6 (>= 2.3.6-2)
+Filename: ./Extra/multiarch-support_2.27-3ubuntu1.2_amd64.deb
+Size: 6920
+MD5sum: d8b602eceefd80b8fa496bd1b8c6869c
+SHA1: 817e841db1af98bb127ec9979319ae87d8e5ba2e
+SHA256: ce64cdd563bde5d4ab1441850951dca60171f52752e096c2ed6242bc2f18879a
+SHA512: 732eed4a0c5d31bab66ec12b804318649e528e5722e364f27cfc037cdaa2054dffcfdb92ed86ac0fb1414254e3c584f6fca8f420e05d938f2678ebab89d3ce69
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description: Transitional package to ensure multiarch compatibility
+ This is a transitional package used to ensure multiarch support is present
+ in ld.so before unpacking libraries to the multiarch directories.  It can
+ be removed once nothing on the system depends on it.
 
 Package: oxygen-icon-theme-light
 Architecture: all
@@ -2897,6 +2986,22 @@ SHA512: b721b1aed06622719b653cab73379c465bb0d93539b082becacd5729f73580b4a85fda11
 Description: Special FossaDog frugal and full install scripts taken from DebianDog.
  Version 1.0.9 fixed menu.lst entries for save to folder (in /casper/ now)
 
+Package: fossadoginstallscripts
+Architecture: amd64
+Version: 1.1.5
+Maintainer: root
+Installed-Size: 863
+Depends: libc6, fossadogmountscripts, gtkdialog
+Replaces: bionicdoginstallscripts
+Filename: ./Included/fossadoginstallscripts_1.1.5_amd64.deb
+Size: 435972
+MD5sum: 77ae02d9baf504139f55393b69c47248
+SHA1: 6486bb0b1df24f59273b33673c4aaf30df89a0b1
+SHA256: 5cd2885370c46574f11c0bf0dd9d94023b7313a0da638efef6dfdaebe9ea8749
+SHA512: 3cf00965b38a6ca34003fffabde5a39a5d27465a8284a13986de43d8b7bd61ed59171312f5d5a2b9ed696353a47467c7a8a8f435751510d85611a82c15df500f
+Description: Special FossaDog frugal and full install scripts taken from DebianDog.
+ Version 1.0.9 fixed menu.lst entries for save to folder (in /casper/ now)
+
 Package: fossadogmountscripts
 Architecture: all
 Version: 1.0.3
@@ -3913,6 +4018,23 @@ MD5sum: f733fd3204b7a1084b56402d213b7e0b
 SHA1: 7da635ac2a8330ea0dea61310fd6224acec91065
 SHA256: ace4e19eba402cfc991305ef76452f69fa8fe282b359344d8c55095d8d9ba244
 SHA512: d9947886b7468835c2dbd1d0574f8101d5b48283078ae8f1fc3547855622836a8ae8824b60efd77bb19315299086a95b92c8cc256f6eb103929e9936b5b37676
+Description: transmission-2.60-x86_64, a bittorrent client:
+ Light version of transmission for DebianDog
+
+Package: transmission-2.60
+Architecture: amd64
+Version: 2.60c
+Maintainer: fredx181 <fredx@nomail.nl>
+Installed-Size: 4327
+Depends: libatk1.0-0, libc6, libcairo2, libcurl4, libevent-2.0-5, libfontconfig1, libfreetype6, libgdk-pixbuf2.0-0, libglib2.0-0, libgtk2.0-0, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libssl1.0.0, libevent-2.0-5
+Conflicts: transmission, transmission-gtk, transmission-qt, transmission-common
+Replaces: transmission, transmission-gtk, transmission-qt, transmission-common
+Filename: ./Included/transmission-2.60_2.60c_amd64.deb
+Size: 1718704
+MD5sum: 1cab228538ecce5f4b324d645a972a09
+SHA1: 836e5f04fc77af8a0e0d8412eb8893aaffb0f316
+SHA256: c2285bb58951d15848c976d7d1b0bfdf1456b5cadb14001c8f0bff42be607a04
+SHA512: 7441e561d1cf6df416e532d46c2694f7430cb9a9cc0244f593b964a3586428c3d0bfeadcca4f1f1d773719969c3ac6d78f3a3c06d4943c95d58ab3b844bf65ea
 Description: transmission-2.60-x86_64, a bittorrent client:
  Light version of transmission for DebianDog
 
