@@ -9,39 +9,39 @@ Codename: Fossa
 Architectures: amd64
 Components: main
 Description: FossaDog repository
-Date: Mon, 17 Aug 2020 17:52:29 +0000
+Date: Mon, 17 Aug 2020 18:00:53 +0000
 MD5Sum:
  a6afdbc4328a93670a84d9725d550aa9           189882 Packages
- 136aa10dc81eff5c225fb430c90c91f6            68974 Packages.gz
- 0769a3a72056e029550a93db60c398f9              184 Release
+ f5966bbd7ba4ef2997ba9078afe0e8e6            68974 Packages.gz
+ 885bf971af268d31536eca9b9129475a              184 Release
  2945f89ace9b1cfd658dc93aa5bea53f            64818 Translation-en
- 136aa10dc81eff5c225fb430c90c91f6            68974 Translation-en.gz
+ f5966bbd7ba4ef2997ba9078afe0e8e6            68974 Translation-en.gz
 SHA1:
  49678e9c9675529822034b7371709878e81f14ad           189882 Packages
- 7210dc828c6b1d8901bb74a522d1a109bc9bc252            68974 Packages.gz
- ad058a7775954ccfbc83d507fce1590dc2a65107              184 Release
+ 12e9eaa11412e7068efe4051c65c3a0750c0989c            68974 Packages.gz
+ 6059647b579a62182196e1c2de2a100c73aac5a7              184 Release
  84980b31beec81c1314aade96d32c62c58c6a946            64818 Translation-en
- 7210dc828c6b1d8901bb74a522d1a109bc9bc252            68974 Translation-en.gz
+ 12e9eaa11412e7068efe4051c65c3a0750c0989c            68974 Translation-en.gz
 SHA256:
  f3d5994adc85fed8745395d4ccc4018a118f355e0e881204198baf08e1fa0e37           189882 Packages
- b4df163bb55b12e17cee3173774fe237b896b80bff3cf8cade6ea43ec5238c87            68974 Packages.gz
- 3869474c807b217263886b9153d769674a2123584c03434a098a375a688a80d4              184 Release
+ a8b7d6e87044dc83c7c242ea05d3f6d300b1052e3998105d5b7e62d6dad3239d            68974 Packages.gz
+ a8771caee38606fc61086798d42c34199a176257bc0f768727a84adde5499c51              184 Release
  45c7b2eb3186c23e08b516476f6610afed7e2a0eb0e9e1d1dc803a662f13a68d            64818 Translation-en
- b4df163bb55b12e17cee3173774fe237b896b80bff3cf8cade6ea43ec5238c87            68974 Translation-en.gz
+ a8b7d6e87044dc83c7c242ea05d3f6d300b1052e3998105d5b7e62d6dad3239d            68974 Translation-en.gz
 SHA512:
  3403f2d5349b028bed431a517bff8fc2d8bcc1d25cfa4ecd1bb56e42736bd3959c2c8535da0eeaa1a35ccd8d61a92ce35c715b5c82ce1a7562cb19a2f5b67694           189882 Packages
- 7d1ba760f78c46e595e74f531a85bf71ac4c69abe6535a2b5325235dc18dd05ba27b39ac2e7a209af579a0c562777084c2ab6fc7372ad2fe178c840ea27669cf            68974 Packages.gz
- a5ae387e26ed0e36983e3a156e43c5308c59141a8b57a5168f7b4ef50c4b18c8385faa5f6b0579efa53dd330dd4ff8ee24d49b697399eeabdec443b6fad75f93              184 Release
+ f04c0f76f4c4a98adc12a2c3c3f2ce6c44499773440bcb2f8576be3a57c8a165538e152f21bc377cd3c67b43b7ad09eb13374487a382499781890ba95a805da3            68974 Packages.gz
+ b7047aca6045efcf23a5ecdf237aef391ec31d2ecbc59d883cce4bf927f9d6f51996bb240113cd22fa9276525db389744837858a1d65a0945d9c5501c0f52246              184 Release
  b64d9562b00b1b8db5405b96c28aeb20189a7faac2716f5bf36497a1c578dca1927ce7323d02638fbb81d5889d161ce78e2cbf4af05134a512654875fd42aa9c            64818 Translation-en
- 7d1ba760f78c46e595e74f531a85bf71ac4c69abe6535a2b5325235dc18dd05ba27b39ac2e7a209af579a0c562777084c2ab6fc7372ad2fe178c840ea27669cf            68974 Translation-en.gz
+ f04c0f76f4c4a98adc12a2c3c3f2ce6c44499773440bcb2f8576be3a57c8a165538e152f21bc377cd3c67b43b7ad09eb13374487a382499781890ba95a805da3            68974 Translation-en.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEEzvZDupk2V//eP5nrYe8en1zCB0FAl86w94ACgkQrYe8en1z
-CB2o1wgArRwzCqguzy+sTieXU9mS4qapgugxzZrUvkmih2uLx3+ytpQ5zod0fj46
-YvgpHfNdI9Rl9SLcivvyYmEEudb0GOXDbJY6husyX6U9HIefup0xyDc0H13A5Q+o
-zmOAU2yFxXHfXb1R759+1Bgapf3Qtu8QUXEa55IoGusJUntWM4i2eo+NEY39x6oS
-jfHv1C+lYyR7JsWL8Qtlg4f51jbWjZHpP2WhUyEpt5/awckhMwe5aKvSIX3DKxFC
-t5+joDsrNkL+B9A0foRPbKzjR6RCMDyXGoo3Sv9umvwbdE7AjLyBMlkbdesN0Q1S
-MW5fnUq9uG8oeOe6LCpY1NspEG25sg==
-=U77d
+iQEzBAEBCAAdFiEEEzvZDupk2V//eP5nrYe8en1zCB0FAl86xdUACgkQrYe8en1z
+CB1nHQf/Wb/rS4Tn7hQ4+9OW5e9puTRASsDQgOJln78JtNQWVac40FV6wnuGke6E
+jNa9eW/1C7tLh1L233BUiMc0/VUVpjCYUWym8wBfJQvrHCzQfoqWcLSn6uQcVmto
+SXS4jw7wiA62zMA9uXVowJ1xA2i04fGOmV9NGP1OoKqK5X7qnLRc1woYJYrxiCz1
+VM6dyYKGTQ/lQoaAO7eBXrvqck9t5/MKaAVqyMO20GN4fJ9oAVobqVhUctXctePi
+3DT2Tuexiwa6AlvmM4q1HK1kiC2mgXe77yn1YYR/62jCLmjwfni8ZxGUHkUUPdrm
+CyPJ74urG5/rmLTjZY8dwI85Wmv6gQ==
+=nvkW
 -----END PGP SIGNATURE-----
