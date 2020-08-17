@@ -616,16 +616,16 @@ Version: 1.0.2
 Priority: optional
 Section: utilities
 Maintainer: root
-Installed-Size: 163
+Installed-Size: 120
 Depends: libc6, gtkdialog, iptables
 Conflicts: firewall-puppy, peasyfwmon
 Replaces: firewall-puppy, peasyfwmon
 Filename: ./Extra/firewall-ng_1.0.2_amd64.deb
-Size: 18012
-MD5sum: 9a8280c0257a39295da1c72e83f96fc6
-SHA1: 9a64fdfb453f4c5bc70248e5d9d5fd01bad59be1
-SHA256: e00581f14844b6bb9a011b488e0bb3b3fdb5b65a64f402f1385645d25414a136
-SHA512: cfd138e4832088ae80f92fdbba3e8787f8e7e3adb8b6010b0b30ec0bb50a425c2a0bbb8893ede2fc04ed901bff32f210abd130c3ad128ef7670d1f7d1774d7ed
+Size: 17736
+MD5sum: f8ffb1c23f76ed258f82733aab96490b
+SHA1: 703840dcc552f79593b86c5d25e047c2e867e1a7
+SHA256: 1ca7e28b178eae6e9bca237fa1f041955d456a7581d0edbeae2be958098d4a91
+SHA512: 1ce8c0e7c3fdedf535cd8ce62f7201241cc1aaa9889c4ac11b66165a229fd5b0db338ee7b610bc39ee1d00195c55f2e4e7cccd740509cb6379d9ad8f7306bcd6
 Description: Firewall-ng by 01micko, based on Alien Bob's Firewall
 
 Package: geany
@@ -643,6 +643,23 @@ MD5sum: 84c99214c183f91f48d50e77511bfb88
 SHA1: e0c961840c1529638d149ac57e61eb990f0ccb36
 SHA256: 0d603e067bf2090ecc231a7e64af83a6b873552d162d6b0851e84e5d25e0a6ec
 SHA512: ccb4ba0b260dbbcf43994a623aad01eba0419ad292fc6dcacaf995ff292ad3e3dc693dc2c2f8b74a21e7f5e4abfbea3d7faec6a0883c22454c348de76f6e4da6
+Description: Advanced text editor
+
+Package: geany
+Architecture: amd64
+Version: 1:1.28-2
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 1200
+Depends: libatk1.0-0, libc6, libcairo2, libgcc1, libgdk-pixbuf2.0-0, libglib2.0-0, libgtk2.0-0, libpango-1.0-0, libpangocairo-1.0-0, libstdc++6, libffi6
+Replaces: geany-common
+Filename: ./Extra/geany_1.28-2_amd64.deb
+Size: 2894164
+MD5sum: b64435c54a2f39a24d146a2996504a62
+SHA1: c419bfcab66532d9721589cd27809d0613252d0d
+SHA256: 9f099140fa902d16a5165bf55e20290774b08d54ab24e8cddda71d46eb9eaa68
+SHA512: 1a6150f875f9ee9665ac053af8ed4ff0e06c18aa9f2e70030d5b033770af8526478e48e6213800ddcc10ef2a4dd66b327fa7b7e3730248a22c2a7e42426f20d4
 Description: Advanced text editor
 
 Package: geany
@@ -1169,6 +1186,28 @@ Description: Asynchronous event notification library
  or "libevent_core + libevent_extra", the libevent source package builds
  the libevent library that includes everything in libevent_core and
  libevent_extra.
+
+Package: libffi6
+Architecture: amd64
+Version: 3.2.1-8
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libffi
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 52
+Depends: libc6 (>= 2.14)
+Filename: ./Extra/libffi6_3.2.1-8_amd64.deb
+Size: 17948
+MD5sum: 764bda311029f658769a4a31fa652cb0
+SHA1: 3f55cfddd3c38ba82a3b8bd9ebe56548f57d725d
+SHA256: fa26945b0aadfc72ec623c68be9cc59235a7fe42e2388f7015fd131f4fb06dc9
+SHA512: 0b13be5cdb3b739964afc642566647fea9e871e1cae838503852cc02b86f4291370e072f6abd3473d2a01a7c4efad7948f358ecec7b4c2ef59ac168e0f1940e9
+Description: Foreign Function Interface library runtime
+ A foreign function interface is the popular name for the interface that
+ allows code written in one language to call code written in another
+ language.
 
 Package: libgldi3
 Architecture: amd64
@@ -1848,6 +1887,22 @@ SHA256: cf09b196f3e5016d43e545704997718e8c9b25fa30df618e2b6a01df01fb531b
 SHA512: 010c8c2ae56f5f33a2a7a5099990fa9df5c1fd01c187f6493bb2792d8059e24863abc871e4a3ec934cf4a7ed12814541c0457600b1666699e970e138671797a6
 Description: Simple burning tool
 
+Package: pequalizer
+Architecture: all
+Version: 0.9.0
+Priority: extra
+Section: system
+Maintainer: root@jessie
+Installed-Size: 363
+Depends: libasound2-plugin-equal, gtkdialog
+Filename: ./Extra/pequalizer_0.9.0_all.deb
+Size: 4784
+MD5sum: 466910a67bdf8fe3dac236f4a0186477
+SHA1: b04f2fa04081014b6937a5a34b808412d27a066c
+SHA256: e23842500caacff5a7e3ded38eee86f79612d3f3fdcaa49400a0a955e58b886c
+SHA512: 1ede86db401471ef9a6cbdc1819849bedb5ac8fda1bfb36809e987f6c8259f51eb4e5ebf6d11673e27ec9fb37e8412715a6839d01fbac47b38a74a541752df96
+Description: pequalizer by 01micko
+
 Package: picdrop
 Architecture: amd64
 Version: 1.0.0
@@ -1863,6 +1918,22 @@ SHA1: 315207b89c47f449c0daea081b77e9d0d5c97125
 SHA256: a8ce8962d0074451d31b917ffdac1756afe5e20f043442cbb21e62403182580e
 SHA512: 8e77fe218b6aa9d4496510e80edc797102202fa9dc7a33784770853d8363218125cb0c78dd06f97ec4482f4a59322c22d8a3c44f5c53ec39975abbd1d50af111
 Description: Picdrop, resize images, by Terry (sunburnt)
+
+Package: pmusic
+Architecture: all
+Version: 6.0.0
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 69
+Depends: ffmpeg, gtkdialog
+Filename: ./Extra/pmusic_6.0.0_all.deb
+Size: 129996
+MD5sum: 415c38e0d6be502e66d79a2326a2b097
+SHA1: 99ac0594144a7082638bf22793fa2344bda6fc42
+SHA256: 2d7181428397c09f9f132b9050c72238c83ed09c106ffb5d95e4c6d937a49999
+SHA512: 9717dd2436fdeaa3f719872910746089e5ef81fdf888095ed4a5778c7ae04803cd6d1e1df7d041ef1ba2606d256ca58535e1ea36a576f1261c283f07cb4aba29
+Description: -Radio -Podcast -Music
 
 Package: pschedule
 Architecture: all
