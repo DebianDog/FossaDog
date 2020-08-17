@@ -2185,6 +2185,38 @@ Description: Python Chromecast media streamer for Linux
  This copy modded by wiak (of murga-linux.com/puppy forum) 
  to allow piping from stdin via transcoder ffmpeg or avconv.
 
+Package: takeagif
+Architecture: all
+Version: 2.0.0
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 234
+Depends: ffmpeg, gtkdialog
+Filename: ./Extra/takeagif_2.0.0_all.deb
+Size: 57334
+MD5sum: 20db62bc79edf37cf0c99272276b829b
+SHA1: ab7b70bab0f063d29c49efea58570c6e56e02db6
+SHA256: 5b9f859d744d5c1b9b55bdd288bae480355961f0e87dcf56bf52f5c964dc7810
+SHA512: 256ac7b2f7b444f13ed120f396fcc7fe081ad2ef5e2e103d5289b90b038d765376c19425c9e7f144b3cc29b06951ef57030cfb5673dcb97c813d18489ef85b06
+Description: Modified from TAS Screenshot utility, more focused on creating an animated GIF
+
+Package: takeashot
+Architecture: all
+Version: 1.15.0
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 68
+Depends: ffmpeg, gtkdialog
+Filename: ./Extra/takeashot_1.15.0_all.deb
+Size: 11084
+MD5sum: b3c7a8f3b32cd45b7b8f5ca85f616d20
+SHA1: 78ce9ee2ba8e311774e8af9b0444cd8ac36d45ef
+SHA256: 7c6a6c1f9b98d0d588cbf681052f3f63c958c06ee4add96f09e59eb755a5d948
+SHA512: 581b0796904fa4bbd53957561b828f2a69079d80fa19798d262230e97c692734c28abdb4e4e3b8cefd0893a437efbf5309d7f8c968f049c7d0a7ecacc9ef7d68
+Description: TAS Screenshot utility, by SFR
+
 Package: touchpad
 Architecture: all
 Version: 1.6
@@ -2199,6 +2231,22 @@ SHA1: 0d58f607cbdd4d99ed72f0f38aa2a85be808d24e
 SHA256: c782323ad205f5aa48197a42120102df2fc1b169ac8ae49759eea3ca0f7c9a71
 SHA512: f4574eada4e72b103c44bdac50a3a617a501fffbbb6b7fbda9a04ae5e1708808157210d8f0442a515a732e5ca6b7657ee35065ab8d32c6cbd8481af180ab678c
 Description: Touchpad/mouse/touchscreen setup
+
+Package: trans-tray
+Architecture: all
+Version: 0.0.2
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 90
+Depends: libc6, yad, xclip, gawk
+Filename: ./Extra/trans-tray_0.0.2_all.deb
+Size: 58636
+MD5sum: c18df960e0b1b95e86f937cbcd0dc9f0
+SHA1: b3b685730db9e5cec976335f402c7f21517ff31f
+SHA256: 0c6f852d92f17f2c8851e63337c0d76c0953b4c0811a77b6a9463451bc5a9322
+SHA512: bad7cd2cc1776923d0c32f01490f8256a1651edc00865f48f9fad8b00d0fb5b9c211469e3fc43e06e9af6a140e6451579a7ff3f8292fa06876806a63cd7f7c0f
+Description: Translation program
 
 Package: txt2svg
 Architecture: amd64
@@ -3986,57 +4034,6 @@ SHA256: e011f062be46fb09fe20f9a8c4de218b249dab6a1acaf1ed9aa9ed5cf591eb0a
 SHA512: 7f2feaa0df1051095fa6f8a2f08af92da6ec814cb75108e8aa8e2ccf1adc90cc4447fc482dc9163349623485c774f27e97d787413e6ee544f2b9107b1abef385
 Description: Mount .squashfs as unprivileged user.
  Squashfuse lets you mount SquashFS archives in user-space
-
-Package: transmission-2.60
-Architecture: amd64
-Version: 2.60a
-Maintainer: fredx181 <fredx@nomail.nl>
-Installed-Size: 4327
-Depends: libatk1.0-0, libc6, libcairo2, libcurl3, libevent-2.0-5, libfontconfig1, libfreetype6, libgdk-pixbuf2.0-0, libglib2.0-0, libgtk2.0-0, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libssl1.0.0, libevent-2.0-5
-Conflicts: transmission, transmission-gtk, transmission-qt, transmission-common
-Replaces: transmission, transmission-gtk, transmission-qt, transmission-common
-Filename: ./Included/transmission-2.60_2.60a_amd64.deb
-Size: 731584
-MD5sum: 4c231c7a56d11e334b260a8ed7083708
-SHA1: 3b94956b34bd6f769068311607c84a788494fd73
-SHA256: 0148556739da074d1cb26b885b5cfdbe07a2506530a247e3ad49f6c498b39744
-SHA512: f3a6145f400494fb312aa78b90ea92d9f9b64862d7a949aafdc45d7f559d2dcbdab174a2723c97487f67e6b7e863473e43105bfb4f81af5cf035345f4e29d380
-Description: transmission-2.60-x86_64, a bittorrent client:
- Light version of transmission for DebianDog
-
-Package: transmission-2.60
-Architecture: amd64
-Version: 2.60b
-Maintainer: fredx181 <fredx@nomail.nl>
-Installed-Size: 4327
-Depends: libatk1.0-0, libc6, libcairo2, libcurl4, libevent-2.0-5, libfontconfig1, libfreetype6, libgdk-pixbuf2.0-0, libglib2.0-0, libgtk2.0-0, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libssl1.0.0, libevent-2.0-5
-Conflicts: transmission, transmission-gtk, transmission-qt, transmission-common
-Replaces: transmission, transmission-gtk, transmission-qt, transmission-common
-Filename: ./Included/transmission-2.60_2.60b_amd64.deb
-Size: 731638
-MD5sum: f733fd3204b7a1084b56402d213b7e0b
-SHA1: 7da635ac2a8330ea0dea61310fd6224acec91065
-SHA256: ace4e19eba402cfc991305ef76452f69fa8fe282b359344d8c55095d8d9ba244
-SHA512: d9947886b7468835c2dbd1d0574f8101d5b48283078ae8f1fc3547855622836a8ae8824b60efd77bb19315299086a95b92c8cc256f6eb103929e9936b5b37676
-Description: transmission-2.60-x86_64, a bittorrent client:
- Light version of transmission for DebianDog
-
-Package: transmission-2.60
-Architecture: amd64
-Version: 2.60c
-Maintainer: fredx181 <fredx@nomail.nl>
-Installed-Size: 4327
-Depends: libatk1.0-0, libc6, libcairo2, libcurl4, libevent-2.0-5, libfontconfig1, libfreetype6, libgdk-pixbuf2.0-0, libglib2.0-0, libgtk2.0-0, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libssl1.0.0, libevent-2.0-5
-Conflicts: transmission, transmission-gtk, transmission-qt, transmission-common
-Replaces: transmission, transmission-gtk, transmission-qt, transmission-common
-Filename: ./Included/transmission-2.60_2.60c_amd64.deb
-Size: 1718704
-MD5sum: 1cab228538ecce5f4b324d645a972a09
-SHA1: 836e5f04fc77af8a0e0d8412eb8893aaffb0f316
-SHA256: c2285bb58951d15848c976d7d1b0bfdf1456b5cadb14001c8f0bff42be607a04
-SHA512: 7441e561d1cf6df416e532d46c2694f7430cb9a9cc0244f593b964a3586428c3d0bfeadcca4f1f1d773719969c3ac6d78f3a3c06d4943c95d58ab3b844bf65ea
-Description: transmission-2.60-x86_64, a bittorrent client:
- Light version of transmission for DebianDog
 
 Package: x11-xserver-utils
 Architecture: amd64
