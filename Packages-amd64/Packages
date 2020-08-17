@@ -1935,6 +1935,22 @@ SHA256: 2d7181428397c09f9f132b9050c72238c83ed09c106ffb5d95e4c6d937a49999
 SHA512: 9717dd2436fdeaa3f719872910746089e5ef81fdf888095ed4a5778c7ae04803cd6d1e1df7d041ef1ba2606d256ca58535e1ea36a576f1261c283f07cb4aba29
 Description: -Radio -Podcast -Music
 
+Package: pmusic
+Architecture: all
+Version: 6.0.1
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 69
+Depends: ffmpeg, gtkdialog
+Filename: ./Extra/pmusic_6.0.1_all.deb
+Size: 129896
+MD5sum: 5a46d7a389b19909313abab860581229
+SHA1: 9e9b737dcc28516a0fc0e1260abd7e828760c508
+SHA256: aeb14bfd1b3505ad4531efbf4260349fd648e433f268fd6cf7dc4946b50410d8
+SHA512: 56c758cd1897826fd172a094f5d61dda7ca6ba0a8c467564ecdf998d77cf2686dab75e70f2f53ca036da64e44514b6be0e8e108c647eeacb9d705ed69d88d3e3
+Description: -Radio -Podcast -Music
+
 Package: pschedule
 Architecture: all
 Version: 1.1.6
