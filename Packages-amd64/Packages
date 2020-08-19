@@ -3966,6 +3966,26 @@ Description: Porteus-boot helper-scripts (Note: works only on BionicDog)
  Bug fix: set the correct permissions for /tmp (save2flash script)
  Fix: when copy2ram is used, the boot partition will be cleanly unmounted.
 
+Package: porteusbootscripts
+Architecture: all
+Version: 0.0.7
+Section: checkinstall
+Maintainer: root@jessie
+Installed-Size: 56
+Depends: libc6
+Filename: ./Included/porteusbootscripts_0.0.7_all.deb
+Size: 11752
+MD5sum: 90fc165fcee69d5ef17833547d81622d
+SHA1: 7f7d38d86ae91a115c08f9c9e93afe9ed408c21d
+SHA256: 325a0646a297e1f3e11712d1a8d3f3c74a06b8f70f07483d02d5b0a93a13ce2e
+SHA512: 082ba919f3e8d79db239dd762550ceecd5ea5ff9218328b0bf370b1357e4713920d43bf646fdbdeede9ba4565dc9c5b4145092dd59af6ae63f19478d83c05d91
+Description: Porteus-boot helper-scripts (Note: works only on BionicDog)
+ This version has included the scripts for the new-save-setup
+ Note: Removing this package does not make any change.
+ This is on purpose because the scrips are essential for porteus-boot to work
+ Bug fix: set the correct permissions for /tmp (save2flash script)
+ Fix: when copy2ram is used, the boot partition will be cleanly unmounted.
+
 Package: precord
 Architecture: all
 Version: 9.0.4

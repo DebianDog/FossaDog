@@ -494,6 +494,7 @@ opt/tmp/makepfile.sh					    porteusbootscripts
 opt/tmp/mk-save.gtkdlg					    porteusbootscripts
 opt/tmp/rc.local.shutdown				    porteusbootscripts
 opt/tmp/save2flash					    porteusbootscripts
+opt/tmp/saveatshutdown.service				    porteusbootscripts
 opt/tmp/setwallpaper					    jwm-setup
 opt/tmp/snap-ex						    porteusbootscripts
 opt/tmp/snapexit					    porteusbootscripts
