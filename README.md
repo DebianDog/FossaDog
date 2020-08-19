@@ -33,12 +33,11 @@ Full LZ4 squashfs support (compression and loading modules)
 Systemd is enabled by default.    
 
 ### Download :    
-Iso 64-bit, all fimware included (e.g. for WiFi): [FossaDog-2020-08-19_64-bit.iso](https://github.com/DebianDog/FossaDog/releases/download/0.1/FossaDog-2020-08-19_64-bit.iso) **Size: 529MB**            
+Iso 64-bit, all fimware included (e.g. for WiFi): [FossaDog-2020-08-19_64-bit.iso](https://github.com/DebianDog/FossaDog/releases/download/0.1/FossaDog-2020-08-19_64-bit.iso) **Size: 540MB**            
 Md5sum: [FossaDog-2020-08-19_64-bit.md5](https://github.com/DebianDog/FossaDog/releases/download/0.1/FossaDog-2020-08-19_64-bit.md5)             
 
 Thanks very much to everyone who has been involved with DebianDog, specially Toni (saintless), William (mcewanw), Terry (sunburnt), Bill (rcrsn51), dancytron, belham2, backi, wiak, The Flying Cat and all who helped by giving feedback on the DebianDog and XenialDog threads.   
     
-
 **Screenshots:**  
 
 Openbox with tint2-panels:  

@@ -6,28 +6,28 @@ Codename: Fossa
 Architectures: amd64
 Components: main
 Description: FossaDog repository
-Date: Wed, 19 Aug 2020 20:21:36 +0000
+Date: Wed, 19 Aug 2020 20:43:24 +0000
 MD5Sum:
  3202d2b9a7fbe569820c87def3f803eb           192502 Packages
- 6730f1a09ca307eae1a27a0b53bb7563            71957 Packages.gz
- 8c8d50efd6dd4157fdd0fe7bdbc2cdc2              184 Release
+ 188617516b261653bc96049d644a0de2            71957 Packages.gz
+ 366de8551842fdc9835b583bc71c7f15              184 Release
  2945f89ace9b1cfd658dc93aa5bea53f            64818 Translation-en
- 6730f1a09ca307eae1a27a0b53bb7563            71957 Translation-en.gz
+ 188617516b261653bc96049d644a0de2            71957 Translation-en.gz
 SHA1:
  17c41ba061572a95bf143e7dc7111fd9be27f270           192502 Packages
- 09272bde9b6955838433bf23c2db28dc0efc72c4            71957 Packages.gz
- 41694a392ed7a9adf2f5d73da22e693f04eecd96              184 Release
+ ca0a2f3587d60fda2359486bb0c7116284a4775d            71957 Packages.gz
+ efa9e14fe36f6ab175687446bbdd72083a6ba987              184 Release
  84980b31beec81c1314aade96d32c62c58c6a946            64818 Translation-en
- 09272bde9b6955838433bf23c2db28dc0efc72c4            71957 Translation-en.gz
+ ca0a2f3587d60fda2359486bb0c7116284a4775d            71957 Translation-en.gz
 SHA256:
  a3912bf7766f7ee99460fbe6ebba04180340cce2e7c3fe2b9f9f1dd9543e975b           192502 Packages
- 7b7c596377f35b8a6bd1596429038a532fcec8a11395b4e3b904cb78221d17c7            71957 Packages.gz
- d036fb4d14e657c8989f166fe142e1d08bf5499bdda81e4f464ac217a8888e02              184 Release
+ 1126d7805424a3ac5a64c56f10286ad4516c974be61c568f8f8ff3f12d7d785b            71957 Packages.gz
+ 6f571437d06f2be4746da8ec68bf2c80e2283b1384ea7c2c6c0c0ae76cb23d5d              184 Release
  45c7b2eb3186c23e08b516476f6610afed7e2a0eb0e9e1d1dc803a662f13a68d            64818 Translation-en
- 7b7c596377f35b8a6bd1596429038a532fcec8a11395b4e3b904cb78221d17c7            71957 Translation-en.gz
+ 1126d7805424a3ac5a64c56f10286ad4516c974be61c568f8f8ff3f12d7d785b            71957 Translation-en.gz
 SHA512:
  a5aaba86ea6b225b073b40f9893affa6a4d7006e0988eadbeb5051e46d771b7ab5c0322b6b74309431ed532883e9ba4f1427731793dbc4df32df264a2ac4349e           192502 Packages
- f2ee209d696f6f02a28da094d91735887632f10ad1f2ff4381aad4838277e08f8f3abb1f2bf238969f0b8103b56461f73a1c277dd57227f9bc892fc6b8b9bdbb            71957 Packages.gz
- 8daa917efd7eb33e3ec539cc144bcd18620fad0a26150ba4e28313d6128ef2d9dd72d1c6597234a3d034ab16453e9b7d06fcd8d7b014ce12bd79e8056c3faf6f              184 Release
+ c3d84fae6f706c39981adcced509b39ece0accf22b25b11d9991cc95ddee76ce7230f67a6cc3205dddf841ba8fc9b4e07e5287125a367fc04db31078c824b3dc            71957 Packages.gz
+ 6e3db7f8242d9458ecb07206d53923b0f138a704e514754648136c7b656b1d52f6b55bd86d6dd344f12d14c975960fafa7e82daa3a7464cece4676ffaf92afa3              184 Release
  b64d9562b00b1b8db5405b96c28aeb20189a7faac2716f5bf36497a1c578dca1927ce7323d02638fbb81d5889d161ce78e2cbf4af05134a512654875fd42aa9c            64818 Translation-en
- f2ee209d696f6f02a28da094d91735887632f10ad1f2ff4381aad4838277e08f8f3abb1f2bf238969f0b8103b56461f73a1c277dd57227f9bc892fc6b8b9bdbb            71957 Translation-en.gz
+ c3d84fae6f706c39981adcced509b39ece0accf22b25b11d9991cc95ddee76ce7230f67a6cc3205dddf841ba8fc9b4e07e5287125a367fc04db31078c824b3dc            71957 Translation-en.gz
