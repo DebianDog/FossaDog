@@ -1,7 +1,7 @@
 ### FossaDog (Ubuntu 20.04 'Focal Fossa' LTS) 64 bit    
 (Ubuntu minimal "live")
 
-**Updated 2020-08-15**   
+**Updated 2020-08-19**     
 
 **FossaDog is a fork of "DebianDog"** with the difference that it's Ubuntu based.   
 See also for Debiandog history: [Here](https://debiandog.github.io/doglinux/zz07about.html)     
@@ -18,7 +18,7 @@ Full access to Ubuntu repositories by using apt-get (from terminal) or from Syna
 **puppy** with password **puppy**    
 
 **Specifications:**    
-Built by upgrading from BionicDog.    
+Built from scratch by using debootstrap  (previous was upgrade from BionicDog).    
 Kernel: 5.4.0-42-generic    
 Boot Method: porteus-boot , see examples [Here](https://github.com/DebianDog/FossaDog/raw/master/Examples-boot-codes.txt)   
 Default WM - OpenBox    
@@ -33,8 +33,8 @@ Full LZ4 squashfs support (compression and loading modules)
 Systemd is enabled by default.    
 
 ### Download :    
-Iso 64-bit, all fimware included (e.g. for WiFi): [FossaDog-2020-08-15_64-bit.iso](https://github.com/DebianDog/FossaDog/releases/download/0.1/FossaDog-2020-08-15_64-bit.iso) **Size: 529MB**            
-Md5sum: [FossaDog-2020-08-15_64-bit.md5](https://github.com/DebianDog/FossaDog/releases/download/0.1/FossaDog-2020-08-15_64-bit.md5)             
+Iso 64-bit, all fimware included (e.g. for WiFi): [FossaDog-2020-08-19_64-bit.iso](https://github.com/DebianDog/FossaDog/releases/download/0.1/FossaDog-2020-08-19_64-bit.iso) **Size: 529MB**            
+Md5sum: [FossaDog-2020-08-19_64-bit.md5](https://github.com/DebianDog/FossaDog/releases/download/0.1/FossaDog-2020-08-19_64-bit.md5)             
 
 Thanks very much to everyone who has been involved with DebianDog, specially Toni (saintless), William (mcewanw), Terry (sunburnt), Bill (rcrsn51), dancytron, belham2, backi, wiak, The Flying Cat and all who helped by giving feedback on the DebianDog and XenialDog threads.   
     
