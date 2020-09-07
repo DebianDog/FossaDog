@@ -1667,21 +1667,6 @@ SHA256: d45c4fff85bd9eb542bfd23531410c8743e9647a6fd48ff84ac301da38409e4a
 SHA512: 4e2f54bad9e5f1494b3235912983aff451515e3592c2ec06c509c6ce00d9df7cb56c8c16e3d89893579c23bb427026846b75bac64ea240e80947e4b3c17ee6dd
 Description: DVD movie player
 
-Package: upgrade-kernel
-Architecture: all
-Version: 1.0.4
-Maintainer: fredx181 dog@root.nl
-Installed-Size: 20
-Depends: libc6, dpkg, xterm, findutils, cpio, xz-utils, gzip, gsu | gksu
-Filename: ./Extra/upgrade-kernel_1.0.4_all.deb
-Size: 10456
-MD5sum: 18ac32d75b585bb75b1e1f300e62a0dd
-SHA1: 48262cb9649079f9cf62d51b8f37dad630a05028
-SHA256: 0488d2d464cb27ec3764147bde78590c48ba0d6369f150520fc3e15c9ae07c35
-SHA512: 7090a3a89de0756311aa650fd98a9584c19ebcf9a0f5bbe6266f08c4b583be443e094f7f80048628b40b57468c697028323996dca633f327d2901459a29bae55
-Description: Warning - This package works only in BionicDog!
- bugfix 2016-11-25: v1.0.1 make backup of /usr/sbin/update-initramfs (and restore later) instead previously create symlink to /usr/share/casper/casper-update-initramfs and improved checking for which kernel version just upgraded to
-
 Package: snappie
 Architecture: amd64
 Version: 1.1-1
@@ -2118,6 +2103,23 @@ SHA256: 1064c35efc9a5e0fa9cfea8b63a88f76832ba7bbf70f3b3a536f22bd12581f6f
 SHA512: bb02283cb90b93bd07b62fdfd281baf5cbc168e87684d8492248b8abd8b87ecfb2c26860f68fd0e1f26499d0a581427b314ded0b94228a4c1039ecd0614b8fcd
 Description: graphical yad message utility.
 
+Package: upgrade-kernel
+Architecture: all
+Version: 1.0.7
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 2800
+Depends: libc6, xterm, xz-utils, cpio, bsdutils, gtkdialog, unionfs-fuse, yad, live-boot, live-tools, cryptsetup-initramfs
+Filename: ./Extra/upgrade-kernel_1.0.7_all.deb
+Size: 1038892
+MD5sum: 55d184ded8f2a1299919f850bac133f2
+SHA1: 5538bdfe4af9df2450d8f0a7493cd607b2c7f79d
+SHA256: 4641c6b13caeb635354ad6e13a53431e37ae6fca61df4ca628d00b6dda07a2da
+SHA512: 7e36a7299318c814acba2603d7a6468c1875148b68beba70189272cd05c7015475f2c1fef9c9220afbfb3c8b3d496ffe33f0c0ef36d6f08f2412f1731b1e0aec
+Description: Install kernel in chroot
+ And create initrd1.xz and initrd.img
+
 Package: wex
 Architecture: all
 Version: 0.8.18-1
@@ -2516,21 +2518,6 @@ SHA256: e23842500caacff5a7e3ded38eee86f79612d3f3fdcaa49400a0a955e58b886c
 SHA512: 1ede86db401471ef9a6cbdc1819849bedb5ac8fda1bfb36809e987f6c8259f51eb4e5ebf6d11673e27ec9fb37e8412715a6839d01fbac47b38a74a541752df96
 Description: pequalizer by 01micko
 
-Package: upgrade-kernel
-Architecture: all
-Version: 1.0.2
-Maintainer: fredx181 dog@root.nl
-Installed-Size: 20
-Depends: libc6, dpkg, xterm, findutils, cpio, xz-utils, gzip, gsu | gksu
-Filename: ./Extra/upgrade-kernel_1.0.2_all.deb
-Size: 10388
-MD5sum: 0a6440aa23b25ba4920a9a79b6f6544d
-SHA1: 9d470f835e3a8687be6f0f189108bb6d02d6240e
-SHA256: 691d7315ffd506c98a3e2a741bcb385e5ad93e6d1d401257895865b7b746ad14
-SHA512: 27dbd8322dc16f9c29b1665e0bbfd693d7320be630e17c998bda5f67afe2962bcbc812eed0972be51d6d72166f54ab6bcab9840861b4b0430f43d5e5531bc0e6
-Description: Warning - This package works only in XenialDog!
- bugfix 2016-11-25: v1.0.1 make backup of /usr/sbin/update-initramfs (and restore later) instead previously create symlink to /usr/share/casper/casper-update-initramfs and improved checking for which kernel version just upgraded to
-
 Package: mpv
 Architecture: amd64
 Version: 1:0.27.0-ddstretch
@@ -2704,21 +2691,6 @@ Description: Light and eye-candy dock to launch your programs (lib package)
  Development site: https://launchpad.net/cairo-dock
  .
  This package contains the library created and used by the Cairo-Dock project.
-
-Package: upgrade-kernel
-Architecture: all
-Version: 1.0.3
-Maintainer: fredx181 dog@root.nl
-Installed-Size: 20
-Depends: libc6, dpkg, xterm, findutils, cpio, xz-utils, gzip, gsu | gksu
-Filename: ./Extra/upgrade-kernel_1.0.3_all.deb
-Size: 10384
-MD5sum: 820e48aa017a6c9344c9eb5566d547c9
-SHA1: c2c4bbd08d85574aec7127609bbe1f2b7c075bcd
-SHA256: 7ff48561038492d021935dce58557f85abed6f3c58d5e1887e932107ad9521db
-SHA512: 257c2f9ec18f1bfdd2e56537d727b777a62f47337dea6a89de7f08aec739f673af55071f0fc24f87933ddcf4c4b37d03bdd735c4a45e267b297cc12cd55a22de
-Description: Warning - This package works only in BionicDog!
- bugfix 2016-11-25: v1.0.1 make backup of /usr/sbin/update-initramfs (and restore later) instead previously create symlink to /usr/share/casper/casper-update-initramfs and improved checking for which kernel version just upgraded to
 
 Package: findnrun-doc
 Architecture: all
@@ -3105,21 +3077,6 @@ SHA1: 2f8c504dcefd5fc5dd04777b0a49d694b530995e
 SHA256: 003e836cb5e2d2ece33e186e44c5ed56ebd23c949c33871baa0bd160a78fb9e7
 SHA512: 2ecc11dcd59f9a8dcbf50308ee0d2c649295564c068d7906c84020ff1c46597d6fb13dd6b5edecf708a5ff2db2a16bb0554c0594bbdd2a8e744e2247e7de7bda
 Description: Conky-clock, choose analog clock display on the Desktop
-
-Package: upgrade-kernel
-Architecture: all
-Version: 1.0.5
-Maintainer: fredx181 dog@root.nl
-Installed-Size: 20
-Depends: libc6, dpkg, xterm, findutils, cpio, xz-utils, gzip, gsu | gksu
-Filename: ./Extra/upgrade-kernel_1.0.5_all.deb
-Size: 10426
-MD5sum: 8c6d1642351c4b860bad6a1e117eac2e
-SHA1: 8f4a842d9ccc6fe31eefb12779b6d0ba9673db79
-SHA256: 8bb416cbdfec449ddb193f6a146e597fb3da28aab6da0d8f02736681268c3f0d
-SHA512: 2db6501c80d985a9d8be7ce35a6b086820b43674bf3cf0fb05f2bdb8ae11c29d645fd7f80eda54c0c0cdde2024fa349976fd099a6f67b1dd159c0cb132d96764
-Description: Warning - This package works only in BionicDog!
- bugfix 2016-11-25: v1.0.1 make backup of /usr/sbin/update-initramfs (and restore later) instead previously create symlink to /usr/share/casper/casper-update-initramfs and improved checking for which kernel version just upgraded to
 
 Package: upgrade-kernel
 Architecture: all
