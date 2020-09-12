@@ -609,7 +609,7 @@ share/doc/scrox/scrot/copyright				    scrox
 usr/bin/Ceni						    ceni
 usr/bin/Frisbee						    frisbee
 usr/bin/Xdialog						    gtkdialog
-usr/bin/apulse						    firefox-apulse,apulse
+usr/bin/apulse						    apulse,firefox-apulse
 usr/bin/azpainter					    azpainter
 usr/bin/bacon						    bacon
 usr/bin/bacon.sh					    bacon
@@ -640,7 +640,7 @@ usr/bin/frisbee-wifi-connect				    frisbee
 usr/bin/frisbee-wifi-disconnect				    frisbee
 usr/bin/gmplayer					    gmplayer
 usr/bin/gtk-straw-viewer				    straw-viewer
-usr/bin/gtk-youtube-update				    youtube-viewer,straw-viewer
+usr/bin/gtk-youtube-update				    straw-viewer,youtube-viewer
 usr/bin/gtk-youtube-viewer				    youtube-viewer
 usr/bin/gtk2-youtube-viewer				    youtube-viewer
 usr/bin/gtkdialog					    gtkdialog
@@ -806,12 +806,12 @@ usr/lib/X11/mini-icons/network_tray-xpm/wifieth-both.xpm    frisbee
 usr/lib/X11/mini-icons/network_tray-xpm/wifieth-in.xpm	    frisbee
 usr/lib/X11/mini-icons/network_tray-xpm/wifieth-none.xpm    frisbee
 usr/lib/X11/mini-icons/network_tray-xpm/wifieth-out.xpm	    frisbee
-usr/lib/apulse/libpulse-mainloop-glib.so		    firefox-apulse,apulse
-usr/lib/apulse/libpulse-mainloop-glib.so.0		    firefox-apulse,apulse
-usr/lib/apulse/libpulse-simple.so			    firefox-apulse,apulse
-usr/lib/apulse/libpulse-simple.so.0			    firefox-apulse,apulse
-usr/lib/apulse/libpulse.so				    firefox-apulse,apulse
-usr/lib/apulse/libpulse.so.0				    firefox-apulse,apulse
+usr/lib/apulse/libpulse-mainloop-glib.so		    apulse,firefox-apulse
+usr/lib/apulse/libpulse-mainloop-glib.so.0		    apulse,firefox-apulse
+usr/lib/apulse/libpulse-simple.so			    apulse,firefox-apulse
+usr/lib/apulse/libpulse-simple.so.0			    apulse,firefox-apulse
+usr/lib/apulse/libpulse.so				    apulse,firefox-apulse
+usr/lib/apulse/libpulse.so.0				    apulse,firefox-apulse
 usr/lib/dhcpcd/X11/mini-icons/network_tray		    frisbee
 usr/lib/dhcpcd/X11/mini-icons/network_tray-xpm/dead.xpm	    frisbee
 usr/lib/dhcpcd/X11/mini-icons/network_tray-xpm/ethernet-active.xpm frisbee
@@ -1352,7 +1352,7 @@ usr/local/bin/dropbox_uploader.sh			    dropboxgui
 usr/local/bin/f3_flash_check				    f3-flash-check
 usr/local/bin/filefinder				    filefinder
 usr/local/bin/filemnt					    filemnt-pcmanfm
-usr/local/bin/firefox					    firefox-portable,firefox-apulse
+usr/local/bin/firefox					    firefox-apulse,firefox-portable
 usr/local/bin/firefox-puppy.sh				    firefox-apulse
 usr/local/bin/firefox-root.sh				    firefox-apulse
 usr/local/bin/firewall_install				    Firewall-Puppy
@@ -3904,14 +3904,14 @@ usr/local/share/pixmaps/gtk-save.png			    dogradio
 usr/local/share/pixmaps/gtk-stop.png			    dogradio
 usr/local/share/pixmaps/star.png			    dogradio
 usr/local/share/pixmaps/wex/wex_config.png		    wex
-usr/local/share/pixmaps/wex/wex_directory.png		    wex,weav
-usr/local/share/pixmaps/wex/wex_edit.png		    wex,weav
-usr/local/share/pixmaps/wex/wex_help.png		    wex,weav
-usr/local/share/pixmaps/wex/wex_home.png		    wex,weav
+usr/local/share/pixmaps/wex/wex_directory.png		    weav,wex
+usr/local/share/pixmaps/wex/wex_edit.png		    weav,wex
+usr/local/share/pixmaps/wex/wex_help.png		    weav,wex
+usr/local/share/pixmaps/wex/wex_home.png		    weav,wex
 usr/local/share/pixmaps/wex/wex_mixer.png		    wex
 usr/local/share/pixmaps/wex/wex_pause.png		    wex
-usr/local/share/pixmaps/wex/wex_play.png		    wex,weav
-usr/local/share/pixmaps/wex/wex_quit.png		    wex,weav
+usr/local/share/pixmaps/wex/wex_play.png		    weav,wex
+usr/local/share/pixmaps/wex/wex_quit.png		    weav,wex
 usr/local/share/pixmaps/wex/wex_record.png		    wex
 usr/local/share/pixmaps/wex/wex_stop.png		    wex
 usr/local/share/pixmaps/wex/wex_utility00.png		    wex
@@ -4001,7 +4001,7 @@ usr/share/applications/ConkyClock.desktop		    conkyclock
 usr/share/applications/ConkyClock2.desktop		    conkyclock2
 usr/share/applications/Create Portable-Appimage.desktop	    create-portable
 usr/share/applications/DogRadio.desktop			    dogradio
-usr/share/applications/GTK-YouTube-Updater.desktop	    youtube-viewer,straw-viewer
+usr/share/applications/GTK-YouTube-Updater.desktop	    straw-viewer,youtube-viewer
 usr/share/applications/GifenC (video to _gif).desktop	    gifenc
 usr/share/applications/Grub4DosConfig.desktop		    grub4dosconfig
 usr/share/applications/ISO-Tools.desktop		    isotools
@@ -4048,7 +4048,7 @@ usr/share/applications/findnrun.desktop			    findnrun
 usr/share/applications/firefox-apulse.desktop		    apulse
 usr/share/applications/firefox-puppy.desktop		    firefox-apulse
 usr/share/applications/firefox-root.desktop		    firefox-apulse
-usr/share/applications/firefox.desktop			    firefox-portable,firefox-apulse
+usr/share/applications/firefox.desktop			    firefox-apulse,firefox-portable
 usr/share/applications/firewall-puppy.desktop		    Firewall-Puppy
 usr/share/applications/firewall-setup.desktop		    firewall-ng
 usr/share/applications/firewallstatus.desktop		    firewall-ng
@@ -4060,7 +4060,7 @@ usr/share/applications/frisbee.desktop			    frisbee
 usr/share/applications/geany.desktop			    geany
 usr/share/applications/gnome-mplayer.desktop		    gnome-mplayer-1.0.7
 usr/share/applications/googledrivegui2.desktop		    googledrivegui2
-usr/share/applications/gtk-youtube-viewer.desktop	    youtube-viewer,straw-viewer
+usr/share/applications/gtk-youtube-viewer.desktop	    straw-viewer,youtube-viewer
 usr/share/applications/jwm-theme-change.desktop		    jwm-setup
 usr/share/applications/jwm.desktop			    jwm-setup
 usr/share/applications/keybind.desktop			    openbox-keybinder
@@ -7196,12 +7196,12 @@ usr/share/pixmaps/dload.png				    youtube-get2
 usr/share/pixmaps/drive.png				    mount-wizard
 usr/share/pixmaps/drive24.png				    mount-wizard
 usr/share/pixmaps/dropbox.png				    dropboxgui
-usr/share/pixmaps/emblem-default.png			    youtube-viewer,straw-viewer
-usr/share/pixmaps/emblem-documents.png			    youtube-viewer,straw-viewer
-usr/share/pixmaps/emblem-downloads.png			    youtube-viewer,straw-viewer
-usr/share/pixmaps/emblem-favorite.png			    youtube-viewer,straw-viewer
-usr/share/pixmaps/emblem-important.png			    youtube-viewer,straw-viewer
-usr/share/pixmaps/emblem-shared.png			    youtube-viewer,straw-viewer
+usr/share/pixmaps/emblem-default.png			    straw-viewer,youtube-viewer
+usr/share/pixmaps/emblem-documents.png			    straw-viewer,youtube-viewer
+usr/share/pixmaps/emblem-downloads.png			    straw-viewer,youtube-viewer
+usr/share/pixmaps/emblem-favorite.png			    straw-viewer,youtube-viewer
+usr/share/pixmaps/emblem-important.png			    straw-viewer,youtube-viewer
+usr/share/pixmaps/emblem-shared.png			    straw-viewer,youtube-viewer
 usr/share/pixmaps/emelfm2.png				    emelfm2
 usr/share/pixmaps/emelfm2/add_mark_bottom_48.png	    emelfm2
 usr/share/pixmaps/emelfm2/add_mark_top_48.png		    emelfm2
@@ -7339,7 +7339,7 @@ usr/share/pixmaps/google-drive-128.png			    googledrivegui2
 usr/share/pixmaps/gtk-go-back.png			    youtube-get2
 usr/share/pixmaps/gtk-go-forward.png			    youtube-get2
 usr/share/pixmaps/gtk-info.png				    youtube-get2
-usr/share/pixmaps/gtk-youtube-viewer.png		    youtube-viewer,straw-viewer
+usr/share/pixmaps/gtk-youtube-viewer.png		    straw-viewer,youtube-viewer
 usr/share/pixmaps/hound1-r.png				    frisbee
 usr/share/pixmaps/hound1.png				    frisbee
 usr/share/pixmaps/hound2.png				    frisbee
@@ -7450,7 +7450,7 @@ usr/share/pixmaps/xfce4-backdrop.png			    scrotdlg
 usr/share/pixmaps/xlunch-logo.png			    xlunch
 usr/share/pixmaps/xvidcap.png				    xvidcap
 usr/share/pixmaps/yassm.png				    yassm
-usr/share/pixmaps/youtube.svg				    youtube-viewer,straw-viewer
+usr/share/pixmaps/youtube.svg				    straw-viewer,youtube-viewer
 usr/share/pixmaps/yt.png				    youtube-get2
 usr/share/pixmaps/ytt.png				    youtube-get2,youtube-get
 usr/share/pixmaps/yyt.png				    youtube-get2
