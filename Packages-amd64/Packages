@@ -138,6 +138,21 @@ SHA256: 1266a249c1e585104e833156b3d09c7c5fb242e26517ed57d72b0bacfea523f7
 SHA512: a2e2b339dd61d1d07df8c623dd1a6260f6bbd9a9259e1e7ff588ac8956592da03fb762c4ed1ed4313fe9e8be11141f1ffd4a4cac12022a8d51a01549f3cfe293
 Description: mounts hand-held devices over USB
 
+Package: camphonetab
+Architecture: all
+Version: 1.6-3
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: gphoto2, gphotofs, jmtpfs, mtp-tools
+Filename: ./Extra/camphonetab_1.6-3_all.deb
+Size: 3584
+MD5sum: cfa2390a82bb32ada64c9e7117b75ff2
+SHA1: 52b933394f46234b0fd6b87b3a622ca7271316b9
+SHA256: 6edc8e6cb8df581ee9e9729053bed2fa7269cd3ee3f92e499b87f609c70fe3ae
+SHA512: 69156e96fa733cbe683e09f9ae6c211fa5bc5e64e7541b6ac23fc2895cd49e790186a4e727cc07bf7f3502ce7f8a5246d06e63b53cb059bce9162dbc07278773
+Description: mounts hand-held devices over USB
+
 Package: cast2chrome
 Architecture: all
 Version: 0.0.3
@@ -643,6 +658,25 @@ SHA1: 703840dcc552f79593b86c5d25e047c2e867e1a7
 SHA256: 1ca7e28b178eae6e9bca237fa1f041955d456a7581d0edbeae2be958098d4a91
 SHA512: 1ce8c0e7c3fdedf535cd8ce62f7201241cc1aaa9889c4ac11b66165a229fd5b0db338ee7b610bc39ee1d00195c55f2e4e7cccd740509cb6379d9ad8f7306bcd6
 Description: Firewall-ng by 01micko, based on Alien Bob's Firewall
+
+Package: frisbee
+Architecture: amd64
+Version: 1.4.9-1
+Priority: extra
+Section: checkinstall
+Maintainer: root@wheezy
+Installed-Size: 554
+Depends: gtkdialog, libgtk2.0-0, libglade2-0, psmisc, wpasupplicant, gsu | gksu, rfkill, net-tools, yad
+Conflicts: ceni, dhcpcd, dhcpcd5, resolvconf, isc-dhcp-client, isc-dhcp-common, sns, xpns-tool, wifibox, wifibox-dhcpcd, peasywifi
+Replaces: ceni, dhcpcd, dhcpcd5, resolvconf, isc-dhcp-client, isc-dhcp-common, sns, xpns-tool, wifibox, wifibox-dhcpcd, peasywifi
+Filename: ./Extra/frisbee_1.4.9-1_amd64.deb
+Size: 157708
+MD5sum: dd0cfc31fd6c4d7ff739624d9174b137
+SHA1: 9064d8e0429bee89c2488cdbd7600555dfee64d0
+SHA256: fd5a108fde4f74065f95f1edc8e92c0b7d6ad74faec9243df374e2d5db60dea3
+SHA512: 9a55dc1e46bc12ec56bf4404dcfa5845a48bb7270eafd74bbd50b70d791b735fa5117001552e18afcffb7743c29673ca77d8db0048fec50e99c1317464832550
+Description: Wireless Network manager
+ Fixed refreshing network_tray icon, e.g. when plugging the cable in/out and when connecting to wireless
 
 Package: geany
 Architecture: amd64
@@ -1373,6 +1407,30 @@ Description: SSL shared libraries
  .
  It is part of the OpenSSL implementation of SSL.
 
+Package: libssl1.0.0
+Architecture: amd64
+Version: 1.0.1t-1+deb8u6
+Multi-Arch: same
+Priority: important
+Section: libs
+Source: openssl
+Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
+Installed-Size: 3075
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.14), debconf (>= 0.5) | debconf-2.0
+Filename: ./Extra/libssl1.0.0_1.0.1t-1+deb8u6_amd64.deb
+Size: 1046556
+MD5sum: 088e32effb654d683eb76be647c4bc6d
+SHA1: 0ca71b5318c514ff705742569b9f0ea0cd4df947
+SHA256: 0fc777d9242fd93851eb49c4aafd22505048b7797c0178f20c909ff918320619
+SHA512: 985a84f2c54780a9ca36ab047a89b2aca927be20830b04aed8acc380870e18fa4e84212834a2c67b2f4f24dcab6fb9731ce0c7607f223793f77fb73cb31c1b67
+Description: Secure Sockets Layer toolkit - shared libraries
+ This package is part of the OpenSSL project's implementation of the SSL
+ and TLS cryptographic protocols for secure communication over the
+ Internet.
+ .
+ It provides the libssl and libcrypto shared libraries.
+
 Package: libva-drm1
 Architecture: amd64
 Version: 1.7.3-2
@@ -1547,6 +1605,22 @@ SHA256: 43cc9f5c1eede3b1589b58c1d5eb09948e4be9ad1defe203a25e31fdd455a0f1
 SHA512: 51c1d521dc4a7d97dd2340db775fe9fe7a39625521076a0ca53a8e56bcb8d731f3dbc9839686469ccbd1a8d04e99f16b2ca873e5248df4eec4b7dbd49c1e498d
 Description: Universal File Viewer by Mochimoppel
 
+Package: mm-view
+Architecture: all
+Version: 0.28.0
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 73
+Depends: gtkdialog, leafpad | geany, rox-filer
+Filename: ./Extra/mm-view_0.28.0_all.deb
+Size: 25852
+MD5sum: b88d774d2d1f4e43071095c5911be6f4
+SHA1: 76492a93158674fb6161b51be9144a93fa641839
+SHA256: 2938044900e941f58a90ffa849bd45b83e28fdba0b83981c895ffe927b904f67
+SHA512: 050ee20b0a82cc8c64ae08f7f7c4a269c5fb6810f382d53d52a7b987a5eb0870d0257d1eb0ab03657530af6f1c0f72e6d33bbf5a4c166521c51922730707eeeb
+Description: Universal File Viewer by Mochimoppel
+
 Package: mpv
 Architecture: amd64
 Version: 1:0.27.0-ddstretch
@@ -1677,6 +1751,20 @@ MD5sum: 09d109c54f1e2ff08a95c37eca605e83
 SHA1: bcc1a3244c05aadf4303414ad85e9fa8fd7907c1
 SHA256: f83254af0b2479ff0710e9356b5f16ac8305c3a34d5c4fce165f5951334f56ad
 SHA512: f34a3313c7e4e2a855a416dcb2605b04094abb801460678e75d053196348df49e4ef6310cd2287a0e1c6e73169915d5b3812c7cd48472910672c04b04c3ddf7d
+Description: Sets system date, time, zone
+
+Package: peasyclock
+Architecture: all
+Version: 1.5
+Priority: optional
+Maintainer: rcrsn51
+Depends: tzdata, ntpdate
+Filename: ./Extra/peasyclock_1.5_all.deb
+Size: 5104
+MD5sum: f27420cf3aa28058a757a463680b94d1
+SHA1: 1f24bfaa6219a5c09d9b0d15a08138da785818f8
+SHA256: 388c4003dfead26c6cd6e7bca45935e4b62f84b70934156a120ad7d601f2621b
+SHA512: ec127ec580994baccb526266f10e1700e92b8b3bb8665a99c56d12c13695d3e947af9a7e6d9ba984a8235b12f9a9094d9bcf9584748805f038bf6da7c0f386ee
 Description: Sets system date, time, zone
 
 Package: peasyfwmon
@@ -1888,6 +1976,33 @@ Description: Reliable network manager
  - added multi-user support (fredx181)
  - changed bcrypt to ccrypt
 
+Package: PeasyWiFi
+Architecture: amd64
+Version: 4.7.0
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: libc6, gtkdialog, gettext-base, net-tools, wpasupplicant, wireless-tools, x11-utils, ccrypt
+Conflicts: ceni, dhcpcd, dhcpcd5, resolvconf, isc-dhcp-client, isc-dhcp-common, sns, xpns-tool, wifibox, wifibox-dhcpcd, frisbee
+Replaces: ceni, dhcpcd, dhcpcd5, resolvconf, isc-dhcp-client, isc-dhcp-common, sns, xpns-tool, wifibox, wifibox-dhcpcd, frisbee
+Filename: ./Extra/peasywifi_4.7.0_amd64.deb
+Size: 16420
+MD5sum: 11dbd177ae7cff9cf6e41e511a978898
+SHA1: 11db026dbca612152c4ddda604a439663fcea891
+SHA256: 425deb68639c353a0d6680b36f9bcd9fd4758929a426fb234247a24eadad5522
+SHA512: 6996165b185619167cc853f87bfb37b905b8737d51bb98f5d8e98bc507bb94ddf3f61f90a6d4eab9de42f41abf2202fad00663cc865edc71530fad791d626113
+Description: Reliable network manager
+ -changes in v4.4-0 in peasywifi script by rcrsn51:
+ - added option (Ethernet tab) to bring the interface down
+ - added Names button (to select interface names)
+ - A modification to Names. It resets the Ethernet profiles in /etc/pwf/ethernet
+ - Updated Help screen
+ - added multi-user support (fredx181)
+ - changed bcrypt to ccrypt
+ Changes in v4.7:
+ 1. The Encrypt section has been removed. To hide the passphrase in a profile, just replace all (or part) of it with XXXX. When you connect, PWF will prompt for the actual passphrase.
+ 2. There are improved instructions for setting up an alternate Ethernet interface like usb0
+
 Package: peasyxorburn
 Architecture: all
 Version: 1.1
@@ -1901,6 +2016,21 @@ MD5sum: 92319bd2f7fc91fd352646919fb00e3f
 SHA1: ad325ebf06d5aa30a672363419580f90fbe5b41b
 SHA256: cf09b196f3e5016d43e545704997718e8c9b25fa30df618e2b6a01df01fb531b
 SHA512: 010c8c2ae56f5f33a2a7a5099990fa9df5c1fd01c187f6493bb2792d8059e24863abc871e4a3ec934cf4a7ed12814541c0457600b1666699e970e138671797a6
+Description: Simple burning tool
+
+Package: peasyxorburn
+Architecture: all
+Version: 1.3
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: xorriso, growisofs, cdrskin, eject, xterm
+Filename: ./Extra/peasyxorburn_1.3_all.deb
+Size: 10340
+MD5sum: 46c3e6760e65048cb15b996f6274cf6e
+SHA1: a44960bad806a5b4c20f014aaa1bd66389a9f90d
+SHA256: a82ef3f984889a569a96708afb2cae2b36b52eab9b47272d6f6955f57e4c4ea4
+SHA512: 4aa3b5042236fef07878e5a9d1c478ec75d4997347fdfb4c6d56ebd772bdb0e9557fd98c00c65bf222dc9946ebb705da2e207b7492bd6a1f99bd338b6b2298a7
 Description: Simple burning tool
 
 Package: pequalizer
@@ -2181,6 +2311,21 @@ Description: scrox is a fork of the scrot command line screen capture utility
  including identical functionality plus can output coordinate information for
  full screen or the selected rectangular area.
 
+Package: simple-python-http-server
+Architecture: all
+Version: 1.2
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: python, gtkdialog
+Filename: ./Extra/simple-python-http-server_1.2_all.deb
+Size: 8500
+MD5sum: 36ba993e23e39960f4b1b5c20b7e29c0
+SHA1: 0c0ee0539dd357bbf3457e2ee046e753872e7f36
+SHA256: af57400b6ea4f6bfb6d7940fd9b1e15489e2763cf6992b53f2d44ea4dcad7a04
+SHA512: 325d7a85aef8c9488337ef69cbf161ae3ce22d4dcc529a0ab65b11f91bd1720769283f5d2f3c63e7f88ef60a443b15a40305863dadcf9266207e4c6f13553a80
+Description: Makes a basic LAN web server
+
 Package: snappie
 Architecture: amd64
 Version: 1.1-1
@@ -2333,6 +2478,21 @@ MD5sum: abd4a37962258d88cfcaca158f2a2e08
 SHA1: 0d58f607cbdd4d99ed72f0f38aa2a85be808d24e
 SHA256: c782323ad205f5aa48197a42120102df2fc1b169ac8ae49759eea3ca0f7c9a71
 SHA512: f4574eada4e72b103c44bdac50a3a617a501fffbbb6b7fbda9a04ae5e1708808157210d8f0442a515a732e5ca6b7657ee35065ab8d32c6cbd8481af180ab678c
+Description: Touchpad/mouse/touchscreen setup
+
+Package: touchpad
+Architecture: all
+Version: 1.9-6
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: xserver-xorg-input-libinput, xinput, sct
+Filename: ./Extra/touchpad_1.9-6_all.deb
+Size: 6354
+MD5sum: 4ed3f69f4d7e240fb04dcb559aced954
+SHA1: b6866f4af017d1a691285ee79ce0df3e70063b10
+SHA256: a02f20e4a87a1f0d7540a29222a0899304339c32193f18bbacef1c3f23c7eb38
+SHA512: ebc654576d9b98c3faa969168d00915a4cf54eecb69c7d18c972020168ff2eeee55f1318cd600a5c05610281a844ffcccdd7debd182db96a5b0e3a4f0fc46c69
 Description: Touchpad/mouse/touchscreen setup
 
 Package: trans-tray
@@ -2617,6 +2777,23 @@ SHA512: c9252cc1c5479c049f309b75118fc6264c4bc5ba694641b9a548ffad78e22e9cc6b8f7f1
 Description: xlunch by Tomas M
  Graphical app launcher
 
+Package: xlunch
+Architecture: amd64
+Version: 4.1.1-4
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 1600
+Depends: libatk1.0-0, libc6, libcairo2, libfontconfig1, libfreetype6, libgdk-pixbuf2.0-0, libglib2.0-0, libgtk2.0-0, libmenu-cache3, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libimlib2, libpng16-16, xterm, librsvg2-bin, devilspie2
+Filename: ./Extra/xlunch_4.1.1-4_amd64.deb
+Size: 1319612
+MD5sum: 154087ddca2bffe6d6623b674cb26537
+SHA1: 86797d384d350af54797b2b47b9583f3f156dd32
+SHA256: 539e53dc425f0403775694529b9571016ae8035c0a18c3fda6865a6fb00b8558
+SHA512: 44e706705a90607611827b4a6daadf20b4ffa242ce3158cb4d16d7d2193d5f7c5b770b05504ef1c61a7e3908a5c45ee8235a44685d5b26e0a5b72d8bf3371814
+Description: xlunch by Tomas M
+ Graphical app launcher
+
 Package: xvidcap
 Architecture: amd64
 Version: 1.1.7
@@ -2723,6 +2900,22 @@ MD5sum: 77b44a976a3c8f1aad31d1d09c745d12
 SHA1: 13ed807460c4ff87929d8dd5f9cd9b806102e6b7
 SHA256: 887ef9580eee18671d6a18f670c63171c17a47cd75168af653e0f7bfc56654d4
 SHA512: 05157e53716c89c1dc407e0a7f9eee71a49910ea04744d55499a0cbd4436adf212667d44eae3324fe1eb47099301ef6e1ece221768681c169a625a955c196003
+Description: Internet Radio Player
+
+Package: yradio
+Architecture: amd64
+Version: 0.0.7-2
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 878
+Depends: yad (>= 1:0.36.0), gnome-mplayer-1.0.7 | gmplayer, xdotool, unzip, streamripper
+Filename: ./Extra/yradio_0.0.7-2_amd64.deb
+Size: 190236
+MD5sum: 702871ca3f437e907311f5ff61f81e72
+SHA1: 93c49d8a2513ecb897d8341d13d27d5e45f4cdbf
+SHA256: 59260caa66504e57ebc89e06705a8e6d9ea94a61a6523926d24f18c0d06fd586
+SHA512: 793cb1d7409bd9df8a2a9b7bd3f06117878d8fe87e8e8d0d5fcbc07724ce1ccb1ed4f8a821076e5acc18c30786cf25b83bef4394070156501c0994d6c5e56de6
 Description: Internet Radio Player
 
 Package: apt2sfs
@@ -4322,27 +4515,6 @@ Description: A simple YouTube Downloader
   https://computing.dcu.ie/~humphrys/Notes/UNIX/lab.youtube.html
  - Gives choice which quality to download, e.g. 360p or 720p, etc...
  - Extra addition: m-play script + menu entry for playing YouTube url with mpv
-
-Package: youtube-viewer
-Architecture: all
-Version: 3.3.1-2-bionic
-Priority: optional
-Section: perl
-Maintainer: fredx181
-Installed-Size: 1100
-Depends: perl, libjson-perl, libjson-xs-perl, libdata-dump-perl, libfile-sharedir-perl, libgtk2-perl, libwww-perl, libterm-readline-gnu-perl, mpv | vlc
-Recommends: youtube-get2
-Suggests: gcap, liblwp-protocol-https-perl, libtext-charwidth-perl, libterm-readkey-perl, libterm-ui-perl, wget
-Filename: ./Included/youtube-viewer_3.3.1-2-bionic_all.deb
-Size: 409800
-MD5sum: 0d2d58ce8c6313d7c25aa309c860fab5
-SHA1: 1b0f9ee977b4be52dfa10b7e6102c4c3a7725801
-SHA256: c15f8cfd116e547335d01f601c86af4a2404d765046293642197031ce3b06498
-SHA512: 3cfd2c656cc9f14432d946caca5de66de7fe7e4b8ebaa2c25e6b0c621944d63df86d9de8b545d93cd62045bc8b76aa964b09f64dd4f58848c0ce5cfc6e27228c
-Homepage: https://github.com/trizen/youtube-viewer
-Description: A Gtk2 application for searching and streaming videos from YouTube.
- WWW-YoutubeViewer - a very easy interface to YouTube.
- Highly recommended: install mpv or vlc mediaplayer and youtube-get2 (includes youtube-dl) to be able to play all videos without exceptions.
 
 Package: zenity-2.30
 Architecture: amd64

@@ -41,10 +41,10 @@ Thanks very much to everyone who has been involved with DebianDog, specially Ton
 **Screenshots:**  
 
 Openbox with tint2-panels:  
-![OpenBox](https://github.com/DebianDog/FossaDog/raw/master/fossadog-tint2.jpg)  
+![OpenBox](https://github.com/DebianDog/FossaDog/raw/gh-pages/fossadog-tint2.jpg)  
 
 Openbox with Cairo-dock:  
-![OpenBox](https://github.com/DebianDog/FossaDog/raw/master/fossadog-cairo-dock-roxpinb.jpg)  
+![OpenBox](https://github.com/DebianDog/FossaDog/raw/gh-pages/fossadog-cairo-dock-roxpinb.jpg)  
 
 Pcmanfm + lxpanel:  
-![OpenBox](https://github.com/DebianDog/FossaDog/raw/master/fossadog-pcmanfm-lxpanel.png)  
+![OpenBox](https://github.com/DebianDog/FossaDog/raw/gh-pages/fossadog-pcmanfm-lxpanel.png)  
