@@ -1998,6 +1998,28 @@ Description: The Ultimate Music Player
   * duration calculation is as precise as possible for vbr mp3
     files (with and without xing/info tags)
 
+Package: quick-remaster
+Architecture: all
+Version: 1.2.4
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 343
+Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu, xorriso
+Filename: ./Extra/quick-remaster_1.2.4_all.deb
+Size: 158452
+MD5sum: fe2d980c5c29049c967ed2593d63b593
+SHA1: c0c07adf58387df4a96a088ea9b7fb8019082841
+SHA256: bfcaa17183dc9812312b0bc55a9892194ab831e8d0fc5d47cf4be2169a81c70c
+SHA512: 801891cc0d180314f2d474fdf68715ff6e93a2887f461faea381fd126e008dea0637d76e149705df07caeac428038e4ba129d064ad4cf8dd5829e0ac1d6e4bd8
+Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
+ Included GUI version using yad: quick-remastergui
+ Bug fix: gz compression option not working in previous version 1.0.3
+ Bug fix: set the correct permissions for /tmp 
+ Fix in v 1.0.6: skip symlinks while cleaning man and doc files
+ Version 1.0.7, added option to quick-remaster GUI to make ISO
+ Version 1.1.5, major bugfix, previously worked properly only when used EXIT: parameter
+ Version 1.2.1, very different method, using the -exclude option of mksquashfs
+ Version 1.2.4, choice to merge extra loaded squashfs modules or not.
+
 Package: stream2chromecast
 Architecture: all
 Version: 0+git20180507-0~webupd8~0
