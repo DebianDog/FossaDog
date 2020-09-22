@@ -2209,6 +2209,21 @@ SHA256: 1064c35efc9a5e0fa9cfea8b63a88f76832ba7bbf70f3b3a536f22bd12581f6f
 SHA512: bb02283cb90b93bd07b62fdfd281baf5cbc168e87684d8492248b8abd8b87ecfb2c26860f68fd0e1f26499d0a581427b314ded0b94228a4c1039ecd0614b8fcd
 Description: graphical yad message utility.
 
+Package: filefinder
+Architecture: all
+Version: 2.5
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: gtkdialog
+Filename: ./Extra/filefinder_2.5_all.deb
+Size: 7206
+MD5sum: 258fb8062847a50d14e3567f896d53e1
+SHA1: eb9b2656defe2cd9e908c1afa580d01c5f58b8e0
+SHA256: 437a0f38dab91cfd5e9b93009978dafedbac9426a233161c2be173e42352cbb7
+SHA512: c5354f1fb27457530c834cfd09d67759616b5437bbc7da590d8f09a764646510778a5f36fea7917a89a9beb9c735d47c7a6933f6740c2251522eecfb456d8f35
+Description: File searching tool
+
 Package: upgrade-kernel
 Architecture: all
 Version: 1.0.7
@@ -4157,6 +4172,21 @@ SHA1: 605a5f332b3a5a5eea85489e08fe3310c2e2a141
 SHA256: 629d9bd7eb287d6bf312ae48e8c44c5dcd8ddeb96404a8f83bc56015abf51f11
 SHA512: 017903940820798c96280984c7d21e49d7e224e9946b6524414902e20e796b46435e986e5fb57c90ca1e857d7a939e314f2c7938b710633c1a2e88b4e9c204f8
 Description: Mplayer SVN-r37957, mediaplayer
+
+Package: yassm
+Architecture: all
+Version: 4.7
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: cifs-utils, smbclient, samba-common-bin, peasyport (>= 3.0)
+Filename: ./Extra/yassm_4.7_all.deb
+Size: 7090
+MD5sum: 796f4dccb98fcc9172357d922e0a8c23
+SHA1: 857c4dab2e1c9108d6865be1aba05f4d6d9efaf6
+SHA256: 669871f1e8ad43af5e1cb9e495fcacadfec8770217dd7cc972d2b7d7eeace7e7
+SHA512: b5aaf6f1dcd008e6a4584e31d75943fb16717dc82a85785444469f87295bc7614560c14a4824b35d0860726a5e9530f2ab5ce993f66dd0b93cf132683ea74032
+Description: Samba share mounter
 
 Package: libcdio-cdda1
 Architecture: amd64
