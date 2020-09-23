@@ -657,6 +657,7 @@ usr/bin/jwm						    jwm
 usr/bin/leafpad						    leafpad
 usr/bin/losetup-FULL					    filemnt-pcmanfm
 usr/bin/madedit						    madedit
+usr/bin/md2html-gui					    md2html
 usr/bin/mkplaylist					    ffconvert
 usr/bin/mplayer						    gmplayer
 usr/bin/mpv						    mpv
@@ -1483,6 +1484,8 @@ usr/local/bin/postergo					    gopoststuff
 usr/local/bin/postergo-sel				    gopoststuff
 usr/local/bin/ppm2mpeg.sh				    xvidcap
 usr/local/bin/pschedule					    pschedule
+usr/local/bin/qiv-gui-info.sh				    qiv-slideshow
+usr/local/bin/qiv-gui.sh				    qiv-slideshow
 usr/local/bin/quick-remastergui				    quick-remaster
 usr/local/bin/remaster-xen-cli				    remaster-scripts
 usr/local/bin/remastercow				    remaster-scripts
@@ -3357,6 +3360,7 @@ usr/local/lib/X11/mini-icons				    frisbee
 usr/local/lib/X11/mini-icons/mini-camera.xpm		    takeashot
 usr/local/lib/X11/pixmaps/edit24.png			    grub4dosconfig
 usr/local/lib/X11/pixmaps/file24.png			    grub4dosconfig
+usr/local/lib/X11/pixmaps/qiv.png			    qiv-slideshow
 usr/local/lib/X11/pixmaps/question.png			    yalarm2
 usr/local/lib/libcd.so					    iupluacontrols-xenialdog64-gtk2
 usr/local/lib/libcdlua53.so				    iupluacontrols-xenialdog64-gtk2
@@ -3369,6 +3373,40 @@ usr/local/lib/libnotify.so.1				    zenity-2.30
 usr/local/lib/libnotify.so.1.2.3			    zenity-2.30
 usr/local/lib/lua/5.3/iuplua.so				    iuplua-core-xenialdog64-gtk2
 usr/local/lib/lua/5.3/iupluacontrols.so			    iupluacontrols-xenialdog64-gtk2
+usr/local/md2html-0.3/layouts/github/github-markdown.css    md2html
+usr/local/md2html-0.3/layouts/github/hljs-github.min.css    md2html
+usr/local/md2html-0.3/layouts/github/page.html		    md2html
+usr/local/md2html-0.3/layouts/github/pilcrow.css	    md2html
+usr/local/md2html-0.3/layouts/jasonm23-dark/hljs-github.min.css md2html
+usr/local/md2html-0.3/layouts/jasonm23-dark/page.html	    md2html
+usr/local/md2html-0.3/layouts/jasonm23-dark/pilcrow.css	    md2html
+usr/local/md2html-0.3/layouts/jasonm23-dark/style.css	    md2html
+usr/local/md2html-0.3/layouts/jasonm23-foghorn/hljs-github.min.css md2html
+usr/local/md2html-0.3/layouts/jasonm23-foghorn/page.html    md2html
+usr/local/md2html-0.3/layouts/jasonm23-foghorn/pilcrow.css  md2html
+usr/local/md2html-0.3/layouts/jasonm23-foghorn/style.css    md2html
+usr/local/md2html-0.3/layouts/jasonm23-markdown/hljs-github.min.css md2html
+usr/local/md2html-0.3/layouts/jasonm23-markdown/page.html   md2html
+usr/local/md2html-0.3/layouts/jasonm23-markdown/pilcrow.css md2html
+usr/local/md2html-0.3/layouts/jasonm23-markdown/style.css   md2html
+usr/local/md2html-0.3/layouts/jasonm23-swiss/hljs-github.min.css md2html
+usr/local/md2html-0.3/layouts/jasonm23-swiss/page.html	    md2html
+usr/local/md2html-0.3/layouts/jasonm23-swiss/pilcrow.css    md2html
+usr/local/md2html-0.3/layouts/jasonm23-swiss/style.css	    md2html
+usr/local/md2html-0.3/layouts/markedapp-byword/hljs-github.min.css md2html
+usr/local/md2html-0.3/layouts/markedapp-byword/page.html    md2html
+usr/local/md2html-0.3/layouts/markedapp-byword/pilcrow.css  md2html
+usr/local/md2html-0.3/layouts/markedapp-byword/style.css    md2html
+usr/local/md2html-0.3/layouts/thomasf-solarizedcssdark/hljs-solarized-dark.min.css md2html
+usr/local/md2html-0.3/layouts/thomasf-solarizedcssdark/page.html md2html
+usr/local/md2html-0.3/layouts/thomasf-solarizedcssdark/pilcrow.css md2html
+usr/local/md2html-0.3/layouts/thomasf-solarizedcssdark/style.css md2html
+usr/local/md2html-0.3/layouts/thomasf-solarizedcsslight/hljs-solarized-light.min.css md2html
+usr/local/md2html-0.3/layouts/thomasf-solarizedcsslight/page.html md2html
+usr/local/md2html-0.3/layouts/thomasf-solarizedcsslight/pilcrow.css md2html
+usr/local/md2html-0.3/layouts/thomasf-solarizedcsslight/style.css md2html
+usr/local/md2html-0.3/markdown				    md2html
+usr/local/md2html-0.3/md2html-gui			    md2html
 usr/local/pburn/.gtkrc-2.0				    pburn
 usr/local/pburn/box					    pburn
 usr/local/pburn/box_chooser				    pburn
@@ -4116,6 +4154,7 @@ usr/share/applications/ISO-Tools.desktop		    isotools
 usr/share/applications/Make ISO from frugal install.desktop quick-remaster
 usr/share/applications/Make initrd.desktop		    upgrade-kernel
 usr/share/applications/MakeScreenshot.desktop		    scrotdlg
+usr/share/applications/Markdown_to_HTML.desktop		    md2html
 usr/share/applications/PeasyPDF.desktop			    peasypdf
 usr/share/applications/Play_with_mplayer.desktop	    youtube-get2,youtube-get
 usr/share/applications/SFS-Load-GUI.desktop		    sfsload
@@ -4213,6 +4252,7 @@ usr/share/applications/poster-sel.desktop		    gopoststuff
 usr/share/applications/poster.desktop			    gopoststuff
 usr/share/applications/precord.desktop			    precord
 usr/share/applications/pschedule.desktop		    pschedule
+usr/share/applications/qiv-slideshow.desktop		    qiv-slideshow
 usr/share/applications/quick-remastergui.desktop	    quick-remaster
 usr/share/applications/redshiftgui.desktop		    redshiftgui
 usr/share/applications/remastercow-start.desktop	    remaster-scripts
@@ -7498,6 +7538,7 @@ usr/share/pixmaps/lock.png				    jwm-setup
 usr/share/pixmaps/logout.png				    jwm-setup
 usr/share/pixmaps/madedit.xpm				    madedit
 usr/share/pixmaps/makedebpkg.png			    makedebpackage
+usr/share/pixmaps/md2html.png				    md2html
 usr/share/pixmaps/mini-record.xpm			    pavrecord
 usr/share/pixmaps/mkinitrd.png				    upgrade-kernel
 usr/share/pixmaps/mkiso.png				    quick-remaster
@@ -7572,6 +7613,7 @@ usr/share/pixmaps/puppy/firewall.svg			    firewall-ng
 usr/share/pixmaps/puppy/shield_internet.svg		    firewall-ng
 usr/share/pixmaps/puppy/shield_no.svg			    firewall-ng
 usr/share/pixmaps/puppy/shield_yes.svg			    firewall-ng
+usr/share/pixmaps/qiv-ss.png				    qiv-slideshow
 usr/share/pixmaps/re-fresh.png				    quick-remaster
 usr/share/pixmaps/restart.png				    jwm-setup
 usr/share/pixmaps/rocket.png				    desktop-editor

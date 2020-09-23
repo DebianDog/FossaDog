@@ -1940,6 +1940,21 @@ Description: mplayer/mplayer2 based video player, minimal build
  This package is not part of Debian. It was created by mpv-build scripts with
  statically linked ffmpeg (not libav) and libass from upstream.
 
+Package: qiv-slideshow
+Architecture: all
+Version: 0.0.2
+Maintainer: fredx181 root@nomail.nl
+Installed-Size: 48
+Depends: yad, qiv
+Filename: ./Extra/qiv-slideshow_0.0.2_all.deb
+Size: 25180
+MD5sum: 5dc30b4a01c1a29fbcbcfd04cf4d5977
+SHA1: e30645703d19d61888a614ba919d203909a6de1f
+SHA256: 9715253e6b618e9b60c0a78a5193bbf96adb0337848b6d2bcfe679a073c12cc5
+SHA512: b60e9dfcf01c0f6eaac08df7614a33ec4914222817c377311fb5cf11f9dbd72a840040aa2eaaba78ef9a00ae03478a346b0e47d48645d156788541d78b3f338f
+Description: QIV-slideshow:
+ Slideshow using qiv and yad
+
 Package: pmusic
 Architecture: all
 Version: 6.0.0
@@ -4543,6 +4558,22 @@ SHA1: a79e59834cd848e1054aa418140eb9c55a4dde0f
 SHA256: dc7c25d6928cc4f7d41b698e52a772ab5fd9df765e6a3d729a00beb1ea85d3b5
 SHA512: c0b0fd7ceef3b0a58a2be3b87e66ba3d65526deb8db48b3bf0634b0a3f821f326abeafcd9522347a94df66e9ab05ede08cf0fcee764c409840667271c4b2a169
 Description: Text to SVG/PNG Fancy Text and Logo Generator
+
+Package: md2html
+Architecture: amd64
+Version: 0.0.4
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 232
+Depends: libc6, gtkdialog
+Filename: ./Extra/md2html_0.0.4_amd64.deb
+Size: 44548
+MD5sum: 22b21663a50c61cbeb020b31733d5587
+SHA1: f1e4f5a6ff8344df01f5d18e582821f91ff7a952
+SHA256: a2c4c4934fc18b509dde798b4e2999cb4d818f96a5e21fbe52f4cba49f29b152
+SHA512: b0ce0cae691f8e714bfa1ec1786c6b8875dbe2a088fb060ec08ff704ead14ad61b36901d5ba7f9282bbfed92b814ac09f20fc658cc11cbacc6db40f79f6b2f61
+Description: Markdown to HTML converter
 
 Package: unzipper
 Architecture: all
