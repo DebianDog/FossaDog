@@ -299,6 +299,22 @@ SHA512: 7f2feaa0df1051095fa6f8a2f08af92da6ec814cb75108e8aa8e2ccf1adc90cc4447fc48
 Description: Mount .squashfs as unprivileged user.
  Squashfuse lets you mount SquashFS archives in user-space
 
+Package: fossadoginstallscripts
+Architecture: amd64
+Version: 1.1.6
+Maintainer: root
+Installed-Size: 863
+Depends: libc6, fossadogmountscripts, gtkdialog
+Replaces: bionicdoginstallscripts
+Filename: ./Included/fossadoginstallscripts_1.1.6_amd64.deb
+Size: 435942
+MD5sum: 414afe36b7a055c2531351f532bedeef
+SHA1: e805630b2c045842d50850a7228085f082018500
+SHA256: 44d8ba1371113cf4a4159262be0e146b086a19353c4deaf1fede7668de3f2a51
+SHA512: 3915855bebb50dda0c0ad5fca58e8370143fb5e20d2734a95b9d307fff061b6911eca43f2736387bed5beb764c260cc88d9e9e801e49e3d6c20cf36a84c60461
+Description: Special FossaDog frugal and full install scripts taken from DebianDog.
+ Version 1.0.9 fixed menu.lst entries for save to folder (in /casper/ now)
+
 Package: mount
 Architecture: amd64
 Version: 2.26.2-6
