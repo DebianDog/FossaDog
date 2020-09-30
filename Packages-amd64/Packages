@@ -3066,6 +3066,22 @@ Description: Enlightened Sound Daemon - Common files
  .
  This package contains the documentation and configuration files.
 
+Package: peasy-dvd-player
+Architecture: all
+Version: 1.7-2
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: xterm, eject, libdvdcss
+Filename: ./Extra/peasy-dvd-player_1.7-2_all.deb
+Size: 5086
+MD5sum: 256a96a37d6f7255c709bb2e0dba9f7a
+SHA1: f0f94d56f888ce757dbb54776d750f8d3b00b31d
+SHA256: e2d4c646a439cd3a15da40c1b6ab943a500dac96f9f726708a51976ffaa8b606
+SHA512: c45a0a26da490aec3075edcfcad94875d9d8ad68dc8b9fec25c0def4cdd6376854235f8b1f00630aadbb1460d12dfdc6c12dd4e2cf1bf131472ea9117996f8cf
+Description: DVD movie player and ripper
+  Install mplayer separately
+
 Package: sound-card-selector
 Architecture: all
 Version: 1.1
