@@ -1749,6 +1749,22 @@ SHA256: b0399ed9b47b5dfbc37317bffdedad4c8d2f8b32f92019a0897cccf0261aa2b3
 SHA512: 09d33c9f9c038c0f95c9ae1b096f4a2a4dd12e63e57f878988ace2255fdffa71d387d233d1ddb05a17f2dba162aeecfdffb33434cbe1a0b06b2425e731360edc
 Description: peasyscale from rcrsn51 for Puppy linux
 
+Package: peasy-dvd-player
+Architecture: all
+Version: 1.7-4
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: xterm, eject, libdvdcss, vamps
+Filename: ./Extra/peasy-dvd-player_1.7-4_all.deb
+Size: 5312
+MD5sum: 4f2651115cc0d45c9d0bf24919811d10
+SHA1: 6d167ff80912498cbced9bf5e4739235b0ba87c2
+SHA256: d97ea877b7ba77b679d92fb6dea72bfd23c62157ed25e5a9101278f0810b5de5
+SHA512: 7f0751f479466ae5919c46167780321d48c9a2092c0f3fdaa90d26bed0cf511883764eba7675dc82f76d75c1ebcac71df2f0a79dd0e11741db478567e79eeff9
+Description: DVD movie player and ripper
+  Install mplayer separately
+
 Package: camphonetab
 Architecture: all
 Version: 1.6-1
@@ -3494,6 +3510,20 @@ SHA1: 5bbca3901ff29df65e37560475057ea9714f423c
 SHA256: 20cc77a1b819c535c95a7180eb4fb4808fee524bc9e05f1c8f08a0e810c84764
 SHA512: 75314eb505edcf793a3a039fc09c9f418c852db81f6d5a14c0a617ba90bee9be7bab65c0185cdc214cd2a91b21664d5e393b79e51f5c79fa3381e72cef0b22af
 Description: Monitor color adjustment tool.
+
+Package: apulse
+Architecture: amd64
+Version: 20200930
+Priority: extra
+Maintainer: rcrsn51
+Depends: libasound2 (>= 1.0.18), libc6 (>= 2.17), libglib2.0-0 (>= 2.14.0)
+Filename: ./Extra/apulse_20200930_amd64.deb
+Size: 37056
+MD5sum: d484b2698d0975cd65dc206001913d51
+SHA1: 2236de3ef699dceefbf150818e4bcb1e50548d62
+SHA256: c7cff061ff83b4ac5bbc62c6dfb0fc6a26b90677e65c51418913095857f79924
+SHA512: c4dea3a99e465a561f6e47daa312afb29fcc5a3b60ae5564a792e61bbc33f496b89098734571ce4452a20e5ddec4ed39060fe03d08f1a9753b2f314c9aaae647
+Description: Pulseaudio emulator using alsa
 
 Package: unzipper
 Architecture: all
