@@ -1881,6 +1881,21 @@ SHA256: bdff026e9109fe5f385e36d077c93b681786643684ce8af1ac8c41b9f87dfb43
 SHA512: 263657bf16ea11624eb11553fba0df0786b42ce615b506eaae459bc869b43ad0db6018a83f4e94d2ff8a4687c192929cd7ebae2a620aa9c9517e33965e94548b
 Description: Pulseaudio emulator using alsa
 
+Package: peasy-media-clipper
+Architecture: all
+Version: 1.0
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Filename: ./Extra/peasy-media-clipper_1.0_all.deb
+Size: 3278
+MD5sum: 1068bf7ff0ce7cc0c148498edbce294a
+SHA1: e83d51d911c73f480ad6ed3543cf847241ee2049
+SHA256: b27c22c42a1f098fc4ed9fade9462fc259d2406a7cb10217b025c0e5ab4c3e5d
+SHA512: 0a0e53306b170b091f2c1be73d49ca6b3d02e36bb43ac810aedf67b3f15122147fd4427a58af55d4c7d13684349c11a5bd3bf2ef50197f0d4a99e9893c9a1f94
+Description: Cuts clips from audio/video files
+  Install mplayer and ffmpeg separately
+
 Package: yradio
 Architecture: amd64
 Version: 0.0.7-2
@@ -4413,6 +4428,21 @@ Description: VP8 and VP9 video codec (shared library)
  on which the Theora codec was based.
  .
  This package contains the shared libraries.
+
+Package: samba-server-control
+Architecture: all
+Version: 3.1
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: gtkdialog
+Filename: ./Extra/samba-server-control_3.1_all.deb
+Size: 6732
+MD5sum: e81af19e62df0eadd05a8061550aa7f8
+SHA1: 8e235d4abb02bb109302ac4e5c0fd3d1fdf279e2
+SHA256: 2c6f14db6a26932d92fd344c265df20efbde66cd73908ba6cd2dd65003844646
+SHA512: 003f02dd37382ade93fc1d607135a5e894b4071920876c1716ab53a6835da709a484d6edeb8da5c9383f1f2618282480f3dd7482bcb086c999f208ed7aaa1291
+Description: Samba server control panel
 
 Package: touchpad
 Architecture: all
