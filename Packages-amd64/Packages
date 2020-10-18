@@ -4581,6 +4581,29 @@ Description: gethosts script from SteveRiley: https://www.kubuntuforums.net/show
   Thanks to jockjunior: http://www.murga-linux.com/puppy/viewtopic.php?p=899122#899122
  .
 
+Package: quick-remaster
+Architecture: all
+Version: 1.2.5
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 343
+Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu, xorriso
+Filename: ./Extra/quick-remaster_1.2.5_all.deb
+Size: 158462
+MD5sum: e336c10fcd289772fff1ee69cf13e6e5
+SHA1: 17cae8c29f1d20ce45d7ceb62ec86432670f3b13
+SHA256: 7b6769f50822e82339abf8d561954fef9d9f6ad557e9bd4a0acb25a75e5b4730
+SHA512: dbb2a1e306836117dcecffc8772c0de5d8c90fec1119694c942e3edd2e6b048c75e58fc75b2ec8519c9996031f1634dec4ca894ae7afebfd9f8e8f2038e8aee8
+Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
+ Included GUI version using yad: quick-remastergui
+ Bug fix: gz compression option not working in previous version 1.0.3
+ Bug fix: set the correct permissions for /tmp 
+ Fix in v 1.0.6: skip symlinks while cleaning man and doc files
+ Version 1.0.7, added option to quick-remaster GUI to make ISO
+ Version 1.1.5, major bugfix, previously worked properly only when used EXIT: parameter
+ Version 1.2.1, very different method, using the -exclude option of mksquashfs
+ Version 1.2.4, choice to merge extra loaded squashfs modules or not.
+ Version 1.2.5, instead excluding whole /lib/modules, exclude files only from the extra loaded kernel module
+
 Package: peasyclock
 Architecture: all
 Version: 1.4
