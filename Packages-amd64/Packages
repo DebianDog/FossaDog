@@ -4404,6 +4404,29 @@ SHA512: 1404704ec3b8a09f847c5b1f7624f892d5bdbc0fd23b0ec3c90ab5f7bbf54e3502d74bba
 Description: pschedule-converted-pet-to-deb
  Pschedule task on time
 
+Package: youtube-viewer
+Architecture: all
+Version: 3.8.0-0
+Priority: optional
+Section: perl
+Maintainer: fredx181
+Installed-Size: 1100
+Depends: perl, libjson-perl, libjson-xs-perl, libdata-dump-perl, libfile-sharedir-perl, libgtk2-perl, libwww-perl, libterm-readline-gnu-perl, mpv | vlc, python, curl
+Recommends: youtube-get2
+Suggests: gcap, liblwp-protocol-https-perl, libtext-charwidth-perl, libterm-readkey-perl, libterm-ui-perl, wget
+Conflicts: straw-viewer
+Replaces: straw-viewer
+Filename: ./Extra/youtube-viewer_3.8.0-0_all.deb
+Size: 244998
+MD5sum: 8a2de4cdf78327b5048b315e925e57ac
+SHA1: 5aa6f087e78363e779142c0d1232cb9905c19eec
+SHA256: 2cc5d8e9c38c20d4412d8f09776623e2364d6caaf8901ccff6c9761a6a7619f6
+SHA512: 51b7df20b4eb39a918bea51199370088b05c0a5c7ebf0503aeea47cae996407c77db3ca328edf8c1ddc875426863faf22f1e8912a2037c40d914a3c7b5af068a
+Homepage: https://github.com/trizen/youtube-viewer
+Description: A Gtk2 application for searching and streaming videos from YouTube.
+ WWW-YoutubeViewer - a very easy interface to YouTube.
+ Highly recommended: install mpv or vlc mediaplayer and youtube-get2 (includes youtube-dl) to be able to play all videos without exceptions.
+
 Package: libvpx4
 Architecture: amd64
 Version: 1.6.1-3
