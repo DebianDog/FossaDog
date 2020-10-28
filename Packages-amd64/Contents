@@ -595,6 +595,7 @@ root/Startup/exec_fwstatus-autostart			    firewall-ng
 root/Startup/exec_lxinput-autostart			    lxinputsave
 root/Startup/firewall-puppy				    Firewall-Puppy
 root/Startup/killmenu-cached				    jwm-setup
+root/Startup/my_squash_loader_tray			    my-squash-loader
 root/Startup/network_tray.sh				    frisbee
 root/Startup/peasyfwmon_tray				    peasyfwmon
 root/Startup/peasymag_tray				    peasymag
@@ -630,6 +631,7 @@ usr/bin/emelfm2						    emelfm2
 usr/bin/evince						    evince
 usr/bin/evince-previewer				    evince
 usr/bin/evince-thumbnailer				    evince
+usr/bin/fdkaac						    fdkaac
 usr/bin/ffconvert					    ffconvert
 usr/bin/ffinfo						    ffconvert
 usr/bin/findnrun					    findnrun
@@ -658,6 +660,7 @@ usr/bin/ipinfo						    frisbee
 usr/bin/jwm						    jwm
 usr/bin/leafpad						    leafpad
 usr/bin/losetup-FULL					    filemnt-pcmanfm
+usr/bin/mac						    monkeys-audio
 usr/bin/madedit						    madedit
 usr/bin/md2html-gui					    md2html
 usr/bin/mkplaylist					    ffconvert
@@ -978,6 +981,8 @@ usr/lib/x86_64-linux-gnu/libesd.so.0			    libesd0
 usr/lib/x86_64-linux-gnu/libesd.so.0.2.39		    libesd0
 usr/lib/x86_64-linux-gnu/libevent-2.0.so.5		    libevent-2.0-5
 usr/lib/x86_64-linux-gnu/libevent-2.0.so.5.1.9		    libevent-2.0-5
+usr/lib/x86_64-linux-gnu/libfdk-aac.so.1		    libfdk-aac1
+usr/lib/x86_64-linux-gnu/libfdk-aac.so.1.0.0		    libfdk-aac1
 usr/lib/x86_64-linux-gnu/libffi.so.6			    libffi6
 usr/lib/x86_64-linux-gnu/libffi.so.6.0.4		    libffi6
 usr/lib/x86_64-linux-gnu/libfusion-1.2.so.9		    libdirectfb-1.2-9
@@ -1000,6 +1005,8 @@ usr/lib/x86_64-linux-gnu/libjpeg.so.62			    libjpeg62-turbo
 usr/lib/x86_64-linux-gnu/libjpeg.so.62.2.0		    libjpeg62-turbo
 usr/lib/x86_64-linux-gnu/liblcms.so.1			    liblcms1
 usr/lib/x86_64-linux-gnu/liblcms.so.1.0.19		    liblcms1
+usr/lib/x86_64-linux-gnu/libmac.so.2			    libmac2
+usr/lib/x86_64-linux-gnu/libmac.so.2.0.0		    libmac2
 usr/lib/x86_64-linux-gnu/libmng.so.1			    libmng1
 usr/lib/x86_64-linux-gnu/libmng.so.1.1.0.10		    libmng1
 usr/lib/x86_64-linux-gnu/libpcre.so.1			    geany
@@ -1444,6 +1451,7 @@ usr/local/bin/mount-wizard				    mount-wizard
 usr/local/bin/mountlink					    fossadogmountscripts
 usr/local/bin/move-in-crypt				    move-in-crypt
 usr/local/bin/mplayer					    gnome-mplayer-1.0.7
+usr/local/bin/my_squash_loader				    my-squash-loader
 usr/local/bin/obshutdown				    obshutdown
 usr/local/bin/openbox-menu				    jwm-setup
 usr/local/bin/peasycdplayer				    peasymp3
@@ -4228,6 +4236,7 @@ usr/share/applications/mount-wizard.desktop		    mount-wizard
 usr/share/applications/move-in-crypt.desktop		    move-in-crypt
 usr/share/applications/mplayer.desktop			    gmplayer
 usr/share/applications/mpv.desktop			    mpv
+usr/share/applications/my-squash-loader.desktop		    my-squash-loader
 usr/share/applications/openbox.desktop			    jwm-setup
 usr/share/applications/pavrecord.desktop		    pavrecord
 usr/share/applications/pburn.desktop			    pburn
@@ -4871,6 +4880,9 @@ usr/share/doc/esound-common/TODO			    esound-common
 usr/share/doc/esound-common/changelog.Debian.gz		    esound-common
 usr/share/doc/esound-common/changelog.gz		    esound-common
 usr/share/doc/esound-common/copyright			    esound-common
+usr/share/doc/fdkaac/changelog.Debian.gz		    fdkaac
+usr/share/doc/fdkaac/changelog.gz			    fdkaac
+usr/share/doc/fdkaac/copyright				    fdkaac
 usr/share/doc/findnrun/CREDITS.md			    findnrun
 usr/share/doc/findnrun/LICENSE.md			    findnrun
 usr/share/doc/findnrun/LUBUNTU.md			    findnrun
@@ -4967,6 +4979,9 @@ usr/share/doc/libesd0					    libesd0
 usr/share/doc/libevent-2.0-5/changelog.Debian.gz	    libevent-2.0-5
 usr/share/doc/libevent-2.0-5/changelog.gz		    libevent-2.0-5
 usr/share/doc/libevent-2.0-5/copyright			    libevent-2.0-5
+usr/share/doc/libfdk-aac1/changelog.Debian.gz		    libfdk-aac1
+usr/share/doc/libfdk-aac1/changelog.gz			    libfdk-aac1
+usr/share/doc/libfdk-aac1/copyright			    libfdk-aac1
 usr/share/doc/libffi6/changelog.Debian.gz		    libffi6
 usr/share/doc/libffi6/copyright				    libffi6
 usr/share/doc/libgif4/AUTHORS				    libgif4
@@ -4998,6 +5013,13 @@ usr/share/doc/liblcms1/NEWS.gz				    liblcms1
 usr/share/doc/liblcms1/README.1ST			    liblcms1
 usr/share/doc/liblcms1/changelog.Debian.gz		    liblcms1
 usr/share/doc/liblcms1/copyright			    liblcms1
+usr/share/doc/libmac2/AUTHORS				    libmac2
+usr/share/doc/libmac2/NEWS.gz				    libmac2
+usr/share/doc/libmac2/README				    libmac2
+usr/share/doc/libmac2/TODO				    libmac2
+usr/share/doc/libmac2/changelog.Debian.gz		    libmac2
+usr/share/doc/libmac2/changelog.gz			    libmac2
+usr/share/doc/libmac2/copyright				    libmac2
 usr/share/doc/libmng1/README				    libmng1
 usr/share/doc/libmng1/changelog.Debian.gz		    libmng1
 usr/share/doc/libmng1/copyright				    libmng1
@@ -5047,6 +5069,13 @@ usr/share/doc/libx264-148/copyright			    libx264-148
 usr/share/doc/madedit/changelog.Debian.gz		    madedit
 usr/share/doc/madedit/changelog.gz			    madedit
 usr/share/doc/madedit/copyright				    madedit
+usr/share/doc/monkeys-audio/AUTHORS			    monkeys-audio
+usr/share/doc/monkeys-audio/NEWS.gz			    monkeys-audio
+usr/share/doc/monkeys-audio/README			    monkeys-audio
+usr/share/doc/monkeys-audio/TODO			    monkeys-audio
+usr/share/doc/monkeys-audio/changelog.Debian.gz		    monkeys-audio
+usr/share/doc/monkeys-audio/changelog.gz		    monkeys-audio
+usr/share/doc/monkeys-audio/copyright			    monkeys-audio
 usr/share/doc/mount/README.mount			    mount
 usr/share/doc/mount/changelog.Debian.gz			    mount
 usr/share/doc/mount/changelog.gz			    mount
@@ -7107,6 +7136,7 @@ usr/share/man/man1/cairo-dock.1.gz			    cairo-dock-minimal
 usr/share/man/man1/ceni.1p.gz				    ceni
 usr/share/man/man1/emelfm2.1				    emelfm2
 usr/share/man/man1/evince.1				    evince
+usr/share/man/man1/fdkaac.1.gz				    fdkaac
 usr/share/man/man1/geany.1				    geany
 usr/share/man/man1/iceauth.1.gz				    x11-xserver-utils
 usr/share/man/man1/jwm.1.gz				    jwm
@@ -7636,6 +7666,7 @@ usr/share/pixmaps/shutdown.png				    jwm-setup
 usr/share/pixmaps/simpleHTTPserver.png			    simple-python-http-server
 usr/share/pixmaps/snappie.png				    snappie
 usr/share/pixmaps/soundcard.png				    sound-card-selector
+usr/share/pixmaps/squash.png				    my-squash-loader
 usr/share/pixmaps/suspend.png				    jwm-setup
 usr/share/pixmaps/switch.png				    jwm-setup
 usr/share/pixmaps/term.png				    jwm-setup
