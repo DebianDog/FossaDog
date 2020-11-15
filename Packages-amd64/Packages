@@ -2736,6 +2736,29 @@ Description: Warning - This package works only in DebianDog booted with porteus 
  Version 1.2.4, choice to merge extra loaded squashfs modules or not.
  Version 1.2.5, instead excluding whole /lib/modules, exclude files only from the extra loaded kernel module
 
+Package: quick-remaster
+Architecture: all
+Version: 1.2.6
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 343
+Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu, xorriso
+Filename: ./Extra/quick-remaster_1.2.6_all.deb
+Size: 158516
+MD5sum: ea5e84b620fe11f8930da2ea143aad8b
+SHA1: ba5ee114eb8d5b5af73eb70b28c54cce5b03119c
+SHA256: cd6ec25424a6b9eaa61170e2bb5243b6a2204d69a5eeb380fddaefca4ed9e574
+SHA512: b3462373a80d9a5422ea43c0d9a70c38d533418973e10409d3c1688ba88f36e83cd53778bf8bf64dbc4c57359fa595e63221d797d0281a9bb21a6d7d9c28f214
+Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
+ Included GUI version using yad: quick-remastergui
+ Bug fix: gz compression option not working in previous version 1.0.3
+ Bug fix: set the correct permissions for /tmp 
+ Fix in v 1.0.6: skip symlinks while cleaning man and doc files
+ Version 1.0.7, added option to quick-remaster GUI to make ISO
+ Version 1.1.5, major bugfix, previously worked properly only when used EXIT: parameter
+ Version 1.2.1, very different method, using the -exclude option of mksquashfs
+ Version 1.2.4, choice to merge extra loaded squashfs modules or not.
+ Version 1.2.5, instead excluding whole /lib/modules, exclude files only from the extra loaded kernel module
+
 Package: redshift-gui-lite
 Architecture: amd64
 Version: 0.0.4
