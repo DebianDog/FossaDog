@@ -4124,6 +4124,8 @@ usr/local/youtube-get3/1url.desktop			    youtube-get3
 usr/local/youtube-get3/2playlist.desktop		    youtube-get3
 usr/local/youtube-get3/3ytuser.desktop			    youtube-get3
 usr/local/youtube-get3/4search.desktop			    youtube-get3
+usr/local/youtube-get3/5dnd.desktop			    youtube-get3
+usr/local/youtube-get3/icons/yt-dnd.png			    youtube-get3
 usr/local/youtube-get3/icons/yt-playlist.png		    youtube-get3
 usr/local/youtube-get3/icons/yt-playlist.pngg		    youtube-get3
 usr/local/youtube-get3/icons/yt-search.png		    youtube-get3
