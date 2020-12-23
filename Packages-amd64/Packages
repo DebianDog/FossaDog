@@ -369,6 +369,22 @@ SHA256: 4838801b453b950d14583964b19146d91d0843b189b22724cb87a34958724ca0
 SHA512: 559c91684b1669bab56b3125474511f6d22b49645147504a66c20d5e54cdf51fe050ffbf9ea482618faa0e0d3a6e73b41e8d0ccae89548f060d45782610bec97
 Description: Create portable AppImage v2.0
 
+Package: create-portable
+Architecture: amd64
+Version: 2.2.0
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 900
+Depends: libc6, unionfs-fuse, squashfs-tools, yad, linux-user-chroot, squashfuse
+Filename: ./Extra/create-portable_2.2.0_amd64.deb
+Size: 148572
+MD5sum: 77cd96452e7c008e56fd70000e6e5b0c
+SHA1: 48afb6253274189b74784ac412dc0ea018c4f7f0
+SHA256: c63ddfc7e72a69293019f1e06908bf49cff7f5090b4e2d62495b12ffd1bfde06
+SHA512: 9adafbbfc698afe71d5ed838f614a8c39fa8db90cdbf13d48b31f1232117aced4af6c6a61fe4e1e7d9b45f1a03c3ec79e56b526da8e645cea34ce9e095f61ca4
+Description: Create portable AppImage v2.0
+
 Package: deadbeef-static
 Architecture: amd64
 Version: 0.7.2-2
