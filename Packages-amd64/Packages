@@ -445,6 +445,22 @@ Description: gethosts script from SteveRiley: https://www.kubuntuforums.net/show
   Thanks to jockjunior: http://www.murga-linux.com/puppy/viewtopic.php?p=899122#899122
  .
 
+Package: drivespeed
+Architecture: all
+Version: 1.0.0
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 206
+Depends: yad
+Filename: ./Extra/drivespeed_1.0.0_all.deb
+Size: 136576
+MD5sum: 75de429395072621d38215235f380695
+SHA1: 107a8cf9b465560ae9e5b65f8659c1bd30e001bf
+SHA256: 00ee038a3232d700fb316be19456b299f718ced66a4c6e3b48fdfe2decc39bf1
+SHA512: 30f28105553892041a26be3d46a3d7186f46b8c69056323a3149fdc67b46035c6edb17ce8ae83e532592cdd8c012aa156794b2e30413eddcdbe31673e0699faf
+Description: Measure drive speed, by Mike Walsh
+
 Package: dropboxgui
 Architecture: all
 Version: 1.0.7
