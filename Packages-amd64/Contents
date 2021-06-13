@@ -1467,6 +1467,7 @@ usr/local/bin/mplayer					    gnome-mplayer-1.0.7
 usr/local/bin/my_squash_loader				    my-squash-loader
 usr/local/bin/obshutdown				    obshutdown
 usr/local/bin/openbox-menu				    jwm-setup
+usr/local/bin/peasy-dvd-iso-maker			    peasy-dvd-iso-maker
 usr/local/bin/peasycdplayer				    peasymp3
 usr/local/bin/peasyclock				    peasyclock
 usr/local/bin/peasydial					    peasydial
@@ -4268,6 +4269,7 @@ usr/share/applications/my-squash-loader.desktop		    my-squash-loader
 usr/share/applications/openbox.desktop			    jwm-setup
 usr/share/applications/pavrecord.desktop		    pavrecord
 usr/share/applications/pburn.desktop			    pburn
+usr/share/applications/peasy-dvd-iso-maker.desktop	    peasy-dvd-iso-maker
 usr/share/applications/peasy_firewall_monitor.desktop	    peasyfwmon
 usr/share/applications/peasycdplayer.desktop		    peasymp3
 usr/share/applications/peasyclock.desktop		    peasyclock
@@ -7651,6 +7653,7 @@ usr/share/pixmaps/partview-48.png			    peasypartview
 usr/share/pixmaps/peasyclock.png			    peasyclock
 usr/share/pixmaps/peasydial.png				    peasydial
 usr/share/pixmaps/peasydvd.png				    peasy-dvd-player
+usr/share/pixmaps/peasydvdiso.png			    peasy-dvd-iso-maker
 usr/share/pixmaps/peasyglue48.png			    peasyglue
 usr/share/pixmaps/peasymag.png				    peasymag
 usr/share/pixmaps/peasymedclip.png			    peasy-media-clipper
