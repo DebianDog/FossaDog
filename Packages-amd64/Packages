@@ -1999,6 +1999,21 @@ Description: Oxygen icon theme
  icon schemes, so it can be used in other desktop environments using this
  specification.
 
+Package: peasy-dvd-iso-maker
+Architecture: all
+Version: 1.0
+Priority: optional
+Section: graphics
+Maintainer: rcrsn51
+Depends: dvdauthor, genisoimage
+Filename: ./Extra/peasy-dvd-iso-maker_1.0_all.deb
+Size: 3466
+MD5sum: c5a602e32991f9ab2961ebdde4eb7b82
+SHA1: 296ec7de3452c1699da7866d312e17acb3ecc9bc
+SHA256: bce20d26184a0d8f75571e9a31ea6116e8e87e0b94ad74d5659a993d0b127023
+SHA512: 3fe94f17a770800742a55a928cd0311d2e69844651c8a80280c35c59ea172f4d7bf2669cce6e8630ea26d76d5b571b957b214d17d0187fcbb3b14155fae4a753
+Description: Makes a DVD burnable ISO
+
 Package: peasy-dvd-player
 Architecture: all
 Version: 1.5
@@ -2798,11 +2813,11 @@ Maintainer: fredx181 dog@root.nl
 Installed-Size: 343
 Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu, xorriso
 Filename: ./Extra/quick-remaster_1.2.7_all.deb
-Size: 158732
-MD5sum: 4619b9f713d60a9f15dc04426598ac24
-SHA1: 545a2ac2166f2e59954db3ce003eb72196bde2d3
-SHA256: 79b7014d5fe0cb2d4f66eadfd8a76b9f0109f7ba02a7898232c177b0ff6d3eaf
-SHA512: 06f3b2abc054315a923fcf12a548758daf9c46c25a6068c7bac7cc6bf32b35f3285ddb1cc4d3ddf16c6e59f20061a57b122ccb0c17b3fe719dcc8432f0d733ae
+Size: 158684
+MD5sum: 61027c536226e3f128a35c57f7354885
+SHA1: 7745ea616f4595c66f4d726dfdea6df6dff66939
+SHA256: f43ba08351fb07418d97212eae4aa852e8399066f3208f11c511105b6e21dd48
+SHA512: 8d0db9f0b033ea08138aeab33414fc914f2487515eff5001d40a39adfa4dac1abf09a2b8dfd9c4f8e3d68a749bc140325c6f5d484152ff5a3bdb5ba070b34071
 Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
  Included GUI version using yad: quick-remastergui
  Bug fix: gz compression option not working in previous version 1.0.3
@@ -5473,19 +5488,4 @@ SHA1: f414045298db4c431623ab8bd30a54831b4874ef
 SHA256: 8d9748730c0a9a67c01b6f3894e41f27c6f44011d5688af28b57c86dd5e4a67c
 SHA512: d2e3741096585f265c8b178cda83fa5ad54b48bddca728eb50e99a506eca06ef40054d79b082f1db01c5cb08952e1f7d43881471de0a10eb5787770aec80d905
 Description: system-firewall
-
-Package: peasy-dvd-iso-maker
-Architecture: all
-Version: 1.0
-Priority: optional
-Section: graphics
-Maintainer: rcrsn51
-Depends: dvdauthor, genisoimage
-Filename: ./peasy-dvd-iso-maker_1.0_all.deb
-Size: 3466
-MD5sum: c5a602e32991f9ab2961ebdde4eb7b82
-SHA1: 296ec7de3452c1699da7866d312e17acb3ecc9bc
-SHA256: bce20d26184a0d8f75571e9a31ea6116e8e87e0b94ad74d5659a993d0b127023
-SHA512: 3fe94f17a770800742a55a928cd0311d2e69844651c8a80280c35c59ea172f4d7bf2669cce6e8630ea26d76d5b571b957b214d17d0187fcbb3b14155fae4a753
-Description: Makes a DVD burnable ISO
 
