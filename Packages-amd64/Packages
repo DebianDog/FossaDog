@@ -69,6 +69,21 @@ SHA256: c7cff061ff83b4ac5bbc62c6dfb0fc6a26b90677e65c51418913095857f79924
 SHA512: c4dea3a99e465a561f6e47daa312afb29fcc5a3b60ae5564a792e61bbc33f496b89098734571ce4452a20e5ddec4ed39060fe03d08f1a9753b2f314c9aaae647
 Description: Pulseaudio emulator using alsa
 
+Package: av-converter
+Architecture: all
+Version: 2.0
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: lame, vorbis-tools, flac
+Filename: ./Extra/av-converter_2.0_all.deb
+Size: 6652
+MD5sum: 0e4a1a3695188a78035f0b67d67a12e5
+SHA1: c30d885cecd3041cf577a30ff4bea4f39dcaeb3e
+SHA256: 8cd5700700ff93a54dc72a481d9648f9588ee438a7a4af599e1c9ad8fe6953a1
+SHA512: 7dcdbd911dd49bc3ce4083c693f7d1cce352680dfba492e6d5301c559c64d612d760b2242269e6dec3f883a350738b4bfcbfaeaa22409a462b0ad997b3080f10
+Description: converts various av formats
+
 Package: azpainter
 Architecture: amd64
 Version: 2.1.1
