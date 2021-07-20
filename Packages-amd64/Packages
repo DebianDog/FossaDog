@@ -84,6 +84,36 @@ SHA256: 8cd5700700ff93a54dc72a481d9648f9588ee438a7a4af599e1c9ad8fe6953a1
 SHA512: 7dcdbd911dd49bc3ce4083c693f7d1cce352680dfba492e6d5301c559c64d612d760b2242269e6dec3f883a350738b4bfcbfaeaa22409a462b0ad997b3080f10
 Description: converts various av formats
 
+Package: av-converter
+Architecture: all
+Version: 2.1
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: lame, vorbis-tools, flac
+Filename: ./Extra/av-converter_2.1_all.deb
+Size: 6746
+MD5sum: f1c5642c2ef81ae394b9a540cb713f3a
+SHA1: 23a6887967371f268d4b51cc5ddfa7229345faf9
+SHA256: ef0be90ddd734cae8e7087279b730b5944c36b5c28b21d1b111f9bc6e3788766
+SHA512: 254f5051a9436b9a9ad2dbd3b96183c582d7554db31da5fe976a8fcc19b469cdaeadb313caf0937d8bb35efd9613b4988b282542b51fad16f3e22d2e3ce994a7
+Description: converts various av formats
+
+Package: av-converter
+Architecture: all
+Version: 2.3.4
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: lame, vorbis-tools, flac
+Filename: ./Extra/av-converter_2.3.4_all.deb
+Size: 7012
+MD5sum: fdd3a5d5339de0bb26d27e938838507d
+SHA1: 704ccdf35f60e865fabd21fb3d63c8509ae3bf91
+SHA256: 42e0366f9167abeb838ed3106a1607c2a21415955c54d14202b74147e7eb3e82
+SHA512: cf894256cf3b7489786984d5d8f62e3a196e1d0418bd1c4f3dea51369df2d1b28d24f794e7a310bdfddc2757a38c9e0a7aecb9701e4afcfb8841af63f29b73c3
+Description: converts various av formats
+
 Package: azpainter
 Architecture: amd64
 Version: 2.1.1
@@ -2027,6 +2057,21 @@ MD5sum: c5a602e32991f9ab2961ebdde4eb7b82
 SHA1: 296ec7de3452c1699da7866d312e17acb3ecc9bc
 SHA256: bce20d26184a0d8f75571e9a31ea6116e8e87e0b94ad74d5659a993d0b127023
 SHA512: 3fe94f17a770800742a55a928cd0311d2e69844651c8a80280c35c59ea172f4d7bf2669cce6e8630ea26d76d5b571b957b214d17d0187fcbb3b14155fae4a753
+Description: Makes a DVD burnable ISO
+
+Package: peasy-dvd-iso-maker
+Architecture: all
+Version: 1.1
+Priority: optional
+Section: graphics
+Maintainer: rcrsn51
+Depends: dvdauthor, genisoimage
+Filename: ./Extra/peasy-dvd-iso-maker_1.1_all.deb
+Size: 3528
+MD5sum: e0939086a42d5d59ff851c925ed9d816
+SHA1: daa94eab404204e44a7803c6407d036537b26c72
+SHA256: 6b6c5d89d8222f96bb390c4df8856664be166d1b2b79fde0624897176ed5accb
+SHA512: fa396f3cca7d160675ddb0b29faf29fa841bb0529b1e1c7de8b4093a4589bc4c40128b7c557560822234b0e623782677f5bbc80a270fc67a08ab30f9156cf11b
 Description: Makes a DVD burnable ISO
 
 Package: peasy-dvd-player
