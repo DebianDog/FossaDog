@@ -69,6 +69,19 @@ SHA256: c7cff061ff83b4ac5bbc62c6dfb0fc6a26b90677e65c51418913095857f79924
 SHA512: c4dea3a99e465a561f6e47daa312afb29fcc5a3b60ae5564a792e61bbc33f496b89098734571ce4452a20e5ddec4ed39060fe03d08f1a9753b2f314c9aaae647
 Description: Pulseaudio emulator using alsa
 
+Package: av-clipper-joiner
+Architecture: all
+Version: 1.4
+Priority: optional
+Maintainer: rcrsn51
+Filename: ./Extra/av-clipper-joiner_1.4_all.deb
+Size: 8210
+MD5sum: abf3ec06da3c38939d649e67b030ba53
+SHA1: ea6673d4a3661b1dba9c7e3451af0ac23e898ea2
+SHA256: 323f30b02c8e83b9caec9b1d88aba6d2d98afcfcb8860724565b180b68e98caa
+SHA512: 85356723a4ec288e3fa37994b63b8e7e576c35823edee8734f44bb4eb986c02eb30604e1327a4a45f28f2f2312e691a481cbd75efca0ce7ccf4093e985f3171d
+Description: Edits media files
+
 Package: av-converter
 Architecture: all
 Version: 2.0

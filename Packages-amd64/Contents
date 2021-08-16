@@ -1364,6 +1364,7 @@ usr/local/bin/Readme_loadsfs-fuse-writesfs		    portablesfs-loadsfs-fuse
 usr/local/bin/alsamixertray				    alsamixer-tray
 usr/local/bin/apt2sfs					    apt2sfs
 usr/local/bin/apt2sfs-fullinst				    apt2sfs
+usr/local/bin/av-clipper-joiner				    av-clipper-joiner
 usr/local/bin/av-converter				    av-converter
 usr/local/bin/batterup					    batterup
 usr/local/bin/batterup_restart				    batterup
@@ -4212,6 +4213,7 @@ usr/share/applications/YouTube-Get2.desktop		    youtube-get2
 usr/share/applications/YouTube-Get3.desktop		    youtube-get3
 usr/share/applications/apt2sfs-fullinst.desktop		    apt2sfs
 usr/share/applications/apt2sfs.desktop			    apt2sfs
+usr/share/applications/av-clipper-joiner.desktop	    av-clipper-joiner
 usr/share/applications/av-converter.desktop		    av-converter
 usr/share/applications/azpainter.desktop		    azpainter
 usr/share/applications/bacongui.desktop			    bacon
@@ -7424,6 +7426,7 @@ usr/share/pixmaps/alsamixertray.png			    alsamixer-tray
 usr/share/pixmaps/application-x-squashfs2.png		    remaster-scripts
 usr/share/pixmaps/application-x-squashfs3.png		    quick-remaster
 usr/share/pixmaps/apt2sfs.png				    apt2sfs
+usr/share/pixmaps/av-clipper-joiner.png			    av-clipper-joiner
 usr/share/pixmaps/av-converter.png			    av-converter
 usr/share/pixmaps/azpainter.png				    azpainter
 usr/share/pixmaps/batterup.png				    batterup
