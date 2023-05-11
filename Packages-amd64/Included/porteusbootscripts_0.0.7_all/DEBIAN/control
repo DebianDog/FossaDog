@@ -1,0 +1,41 @@
+Package: porteusbootscripts
+Section: checkinstall
+Installed-Size: 56
+Maintainer: root@jessie
+Depends: libc6
+Architecture: all
+Version: 0.0.7
+Description: Porteus-boot helper-scripts (Note: works only on BionicDog)
+ This version has included the scripts for the new-save-setup
+ Note: Removing this package does not make any change.
+ This is on purpose because the scrips are essential for porteus-boot to work
+ Bug fix: set the correct permissions for /tmp (save2flash script)
+ Fix: when copy2ram is used, the boot partition will be cleanly unmounted.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

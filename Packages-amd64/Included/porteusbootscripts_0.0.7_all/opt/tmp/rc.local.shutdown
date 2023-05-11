@@ -1,0 +1,23 @@
+#! /bin/sh
+
+
+case "$1" in
+  start)
+# no-opt
+	;;
+  restart|reload|force-reload)
+	echo "Error: argument '$1' not supported" >&2
+	exit 3
+	;;
+  stop)
+#	if [ -f /mnt/live/tmp/modules ]; then
+	clear
+	/usr/local/bin/snap-ex </dev/console >/dev/console 2>&1
+#	fi
+        ;;
+  *)
+	echo "Usage: $0 start|stop" >&2
+	exit 3
+	;;
+esac
+

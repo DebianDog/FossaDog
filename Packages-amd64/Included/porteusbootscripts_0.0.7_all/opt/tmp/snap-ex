@@ -1,0 +1,135 @@
+#!/bin/bash
+
+sleep 1
+clear
+echo
+echo -e " [1;33m-----------------------------------------------------------[0;39m "
+echo
+echo
+echo -e " [1;34m                 _.====.._                 [0;39m "
+echo -e " [1;31m        . ''. [1;34m  ,:._       ~-_                                             [0;39m "
+echo -e " [1;31m       : :'  :[1;34m      '\        ~-_                              		  [0;39m "
+echo -e " [1;31m       .  '-' [1;34m        \        \\.        [0;39m "
+echo -e " [1;31m        '-    [1;34m      ,/           ~-_      [0;39m "
+
+echo -e " [1;34m           -..__..-''             ~~--..__[0;39m "
+echo
+echo -e " [1;33m        FossaDog-Porteus is shutting down...[0;39m "
+echo
+
+if [ ! -f /mnt/live/tmp/changesx ]; then
+	if [ -f /mnt/live/tmp/changes-exit ]; then
+echo "[1;36m""Save Changes?""[0m"
+sleep 2
+if [ -z `which dialog` ]; then
+echo -e "Your session will be saved in [1;33m10[0m seconds.\nPress [1;29mEnter[0;29m to start doing it now or [1;29many other key[0;29m to [1;29mnot save[0;29m the session."; x=10 
+  while [ $x -gt 0 ]; do read -s -t1 -n1 ans && break || let x=x-1; echo -n " $x"; done
+
+  if [ "$ans" = "" ]; then
+echo
+echo "[1;32m""Saving session...""[0m"
+echo
+/usr/bin/snapmergepuppy 2> /dev/null
+echo
+else
+echo
+echo "[1;31m""Session not saved""[0m"
+echo
+  fi
+else  
+           dialog --timeout 10 --yes-label "SAVE" --no-label "NO SAVE" --yesno "Press ENTER key to save session...
+Or, wait 10 seconds to save the session...
+Or, press TAB then ENTER to not save session..." 0 0  >/dev/console
+     [ $? -eq 1 ] || SAVE="yes"
+    
+   if [ "$SAVE" != "" ];then
+echo 
+echo "[1;32m""Saving session...""[0m"
+
+/usr/bin/snapmergepuppy 2> /dev/null 
+
+else
+echo
+echo "[1;31m""Session not saved""[0m"   
+   fi
+fi
+fi
+
+
+SAVEFILE_MNT="/mnt/live/memory/images/changes-exit"
+
+	if [ -f /tmp/savefile.txt ] && [ -f /mnt/live/etc/nochanges ]; then 
+  . /tmp/savefile.txt
+  if [ ! -d $SAVEFILE_MNT ] ; then
+    mkdir $SAVEFILE_MNT
+  fi
+  	mount $SAVEFILE $SAVEFILE_MNT
+echo
+echo "[1;32m""Saving session...""[0m"
+	snapmergepuppy 2> /dev/null
+echo
+	fi
+else
+if [ -f /mnt/live/tmp/sessionsaved ]; then
+echo "[1;32m""Session already saved""[0m"
+fi
+fi
+if [ ! -f /tmp/savefile.txt ] && [ ! -f /mnt/live/etc/nochanges ] &&  [ ! -f /mnt/live/tmp/changes-exit ]; then
+echo
+echo "[1;32m""Session already saved (using overlay)""[0m"
+echo
+fi
+echo
+echo -e " [1;33m-----------------------------------------------------------[0;39m "
+echo
+sleep 2
+
+### 20180624, fredx181, added for a clean unmount of boot partition when copy2ram is used ###
+sync
+hdrv=$(cat /mnt/live/etc/homedrv | cut -d'/' -f3)
+
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+/sbin/auplink / flush 
+mount -oremount,noxino,noplink,ro /
+
+	if [ -f /mnt/live/tmp/changes-exit ]; then
+mount -no remount,add:1:/mnt/live/memory/images/changes-exit=ro aufs / 2>/dev/null
+mount -n -o remount,del:/mnt/live/memory/images/changes-exit aufs / 2>/dev/null
+  if [ $? -ne 0 ]; then
+echo "Could not unmount changes-exit, boot partition will not be cleanly unmounted"
+  else
+echo "Unmounting changes-exit..."
+umount /mnt/live/memory/images/changes-exit
+  fi
+	else
+# remount changes read-only
+mount -no remount,add:1:/mnt/live/memory/changes=ro aufs / 2>/dev/null
+#mount -n -o remount,del:/mnt/live/memory/changes aufs / 2>/dev/null
+#  if [ $? -ne 0 ]; then
+#echo "Could not unmount changes, boot partition will not be cleanly unmounted"
+#  else
+#echo "Unmounting changes..."
+#umount /mnt/live/memory/changes
+#  fi
+	fi
+
+hdrv=$(cat /mnt/live/etc/homedrv | cut -d'/' -f3)
+
+#umount -l /dev/$hdrv 2> /dev/null
+umount -l /mnt/live/memory/images/changes-exit 2> /dev/null
+umount -l /mnt/live/memory/changes 2> /dev/null
+umount -l /mnt/live/memory/images/01-filesystem.squashfs 2> /dev/null
+umount -l /mnt/live
+
+echo "Unmounting all..."
+umount -a 2>/dev/null
+
+mount | grep "^/dev/$hdrv"
+
+if [ "$(mount | grep "^/dev/$hdrv")" ]; then
+echo "could not unmount $hdrv"
+fi 
+
+# uncomment below to do a filesystem check (but should be not required, for debugging only)
+#/sbin/e2fsck /dev/$hdrv
+sleep 2

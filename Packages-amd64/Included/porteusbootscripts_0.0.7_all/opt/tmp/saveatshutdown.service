@@ -1,0 +1,29 @@
+[Unit]
+Description=Run mycommand at shutdown
+Requires=network.target
+#RequiresMountsFor=/ /mnt/live /mnt/live/memory/images/01-filesystem.squashfs /mnt/live/memory/images/changes-exit /mnt/live/memory/changes
+DefaultDependencies=no
+#Before=umount.target network.target poweroff.target shutdown.target reboot.target halt.target
+#Requires=umount.target
+#Before=umount.target
+#Before=kexec.target
+Wants=network-online.target
+After=network-online.target
+#After=network.target networking.service network-online.target nss-lookup.target systemd-resolved
+#Requires=network.target networking.service network-online.target nss-lookup.target systemd-resolved
+
+[Service]
+Type=oneshot
+RemainAfterExit=true
+ExecStart=/bin/true
+TTYPath=/dev/console
+ExecStop=/etc/rc.local.shutdown stop
+StandardInput=tty
+StandardOutput=tty
+TTYPath=/dev/tty1
+TTYReset=yes
+TTYVHangup=yes
+TimeoutStopSec=0
+
+[Install]
+WantedBy=multi-user.target

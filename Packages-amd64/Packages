@@ -3481,6 +3481,24 @@ SHA512: 7e36a7299318c814acba2603d7a6468c1875148b68beba70189272cd05c7015475f2c1fe
 Description: Install kernel in chroot
  And create initrd1.xz and initrd.img
 
+Package: upgrade-kernel
+Architecture: all
+Version: 1.0.8
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 2800
+Depends: libc6, xterm, xz-utils, cpio, bsdutils, gtkdialog, unionfs-fuse, yad, live-boot, live-tools, cryptsetup-initramfs
+Filename: ./Extra/upgrade-kernel_1.0.8_all.deb
+Size: 1038992
+MD5sum: f2538355e1e201c60647f221ecb9904f
+SHA1: 18172451d17eb49f591b194223d4de3d2c96d572
+SHA256: a8bbf624666f9db7c115d8dbc94d97d3d810da9c36fc7b5dae96bb4c5b38247a
+SHA512: 960a4cea859857efa0ffb230b15d89fe370ce56c4214284dd30cfc8e27633520bebf34cbc7ca3dea82c1745bd2b264b56d66ffd8d4155b314bc4cf63fed65141
+Description: Install kernel in chroot
+ And create initrd1.xz
+ v1.0.8, fixed that extracting kernel version did not work as expected
+
 Package: weav
 Architecture: all
 Version: 9.1.1
