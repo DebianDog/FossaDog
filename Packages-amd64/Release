@@ -6,28 +6,28 @@ Codename: Fossa
 Architectures: amd64
 Components: main
 Description: FossaDog repository
-Date: Thu, 11 May 2023 17:32:16 +0000
+Date: Thu, 11 May 2023 17:33:57 +0000
 MD5Sum:
  eb6808338f64291ba09245a7dd90044a           239745 Packages
- 4cfff21dc3c993728ac501d7f19b5af7            85616 Packages.gz
- f013232417b4738df8a10598973082e2              184 Release
+ bbc443cd0643a31027711efe2bc4d4dd            85616 Packages.gz
+ b361c6c84b5c34cc87e27d16e1474029              184 Release
  2945f89ace9b1cfd658dc93aa5bea53f            64818 Translation-en
- 4cfff21dc3c993728ac501d7f19b5af7            85616 Translation-en.gz
+ bbc443cd0643a31027711efe2bc4d4dd            85616 Translation-en.gz
 SHA1:
  cd5b0a68d04d16294fe884474a90c42304a38142           239745 Packages
- 08d1cb17f0dd349b74ae26b5db70669b329e9d48            85616 Packages.gz
- 175d18254cf48430f0cbba0bf823641089337a37              184 Release
+ a1d44a2b1432354899b6df112eb7a2493b4a929f            85616 Packages.gz
+ c6317614bc90a35945ce2db468166c7964914897              184 Release
  84980b31beec81c1314aade96d32c62c58c6a946            64818 Translation-en
- 08d1cb17f0dd349b74ae26b5db70669b329e9d48            85616 Translation-en.gz
+ a1d44a2b1432354899b6df112eb7a2493b4a929f            85616 Translation-en.gz
 SHA256:
  dd02ac23bdc3c4e6ac38b23958aa51b9c45c7be01a75c8d84ab138c035e129de           239745 Packages
- a008aff1a0d52bc1aa9aea8339f723c8d141ae94fa8c7e1425dbf739f55b05d9            85616 Packages.gz
- 129e9418631fdcdc68a52c704186c8a6a67364f9694af8db455c46ec758b81d6              184 Release
+ 41fde6fc6db5410f94b41842e38280cb55458f377216de7b81d074f3cf9a98ee            85616 Packages.gz
+ f986ee6a0255b750aa8476b57a220a6ead7df4723ccaa782983f40d1871ee3e9              184 Release
  45c7b2eb3186c23e08b516476f6610afed7e2a0eb0e9e1d1dc803a662f13a68d            64818 Translation-en
- a008aff1a0d52bc1aa9aea8339f723c8d141ae94fa8c7e1425dbf739f55b05d9            85616 Translation-en.gz
+ 41fde6fc6db5410f94b41842e38280cb55458f377216de7b81d074f3cf9a98ee            85616 Translation-en.gz
 SHA512:
  4bf3ad281b77b8d3a5385de2faab2845bc07adcefd1be4ae5e46e1f56270a04386111e46e117f92bcc266ecdf9da387ca8fbccf18dce7af187f4d9b6ba4e3a13           239745 Packages
- 4f2dc2481a29bfede154b378d6ed671ef20de46a4fb1a55c423bd0a9d45dd8dff74ddeaf84e03c3230cd63035140822deaebc53443649d75bf8e01c8a92d252f            85616 Packages.gz
- 58af433d6d912541953f6e42176ff930c51553b62f66a7ead32f3d22bf0d5674a7c7fa283ab39f9f50130cad3b09f8fff6e96e175a24da0e23bd049a5f3f2568              184 Release
+ 57158d567b20114bb5067c4f27c453045a9276a46dd9a6911e715d08e84eccb46547df0d6647702f1b0b017cdc8c971fd8ac0494e7a0b9256e076bd73a37c2e6            85616 Packages.gz
+ 39e4acc459e6afbc667ab7dd9468e89109862f5f9d39a157a0ea5c195d8e2bcd5c5e7685e7ace0126ab1ee72edac8ccf264fa6e5a14739e47f90359e0b9683a1              184 Release
  b64d9562b00b1b8db5405b96c28aeb20189a7faac2716f5bf36497a1c578dca1927ce7323d02638fbb81d5889d161ce78e2cbf4af05134a512654875fd42aa9c            64818 Translation-en
- 4f2dc2481a29bfede154b378d6ed671ef20de46a4fb1a55c423bd0a9d45dd8dff74ddeaf84e03c3230cd63035140822deaebc53443649d75bf8e01c8a92d252f            85616 Translation-en.gz
+ 57158d567b20114bb5067c4f27c453045a9276a46dd9a6911e715d08e84eccb46547df0d6647702f1b0b017cdc8c971fd8ac0494e7a0b9256e076bd73a37c2e6            85616 Translation-en.gz
