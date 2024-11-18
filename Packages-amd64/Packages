@@ -3449,6 +3449,26 @@ SHA256: 6bae72423635d11e292cc1296a6691174c080007d8e58709371d444afd6d3128
 SHA512: 44b1f6f88f414450739e28a1a957c8fd694e2fabde18832f1cec03fa2d44b66a85eddbbb4adabe9f612476fe699b074c3b7ba5961ecd226860ce6334b6964081
 Description: Extract gz, tgz, bz2, xz, zip, 7z archives
 
+Package: upgrade-kernel-mod
+Architecture: all
+Version: 1.0.10
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 2800
+Depends: libc6, xterm, xz-utils, cpio, bsdutils, gtkdialog, unionfs-fuse, yad, live-boot, live-tools, cryptsetup-initramfs
+Conflicts: upgrade-kernel
+Replaces: upgrade-kernel
+Filename: ./Extra/upgrade-kernel-mod_1.0.10_all.deb
+Size: 1176420
+MD5sum: deebe35fd183c84c783460c3e89dac2b
+SHA1: 00f55fe6c419c75a5c9343657772f5d6c731dc41
+SHA256: c9bea7115176e60bc8c46c60edc6292f27c02e2c34a77d112a825b1d28fcad49
+SHA512: 28c80307bfb999ccc103ac4bcb5e7f11bf80478bc34262add337eda0a38c145e18e1f4ff2678a8933e10c5f558f259f1ad5ad9cf03b8c2a8becd204e4ffdaa9e
+Description: Install kernel in chroot
+ And create initrd1.xz
+ v1.0.10, upgrade-kernel-mod, search latest version unsigned generic and create kernel package
+
 Package: upgrade-kernel
 Architecture: all
 Version: 1.0.6
@@ -3508,11 +3528,11 @@ Maintainer: fredx181
 Installed-Size: 2800
 Depends: libc6, xterm, xz-utils, cpio, bsdutils, gtkdialog, unionfs-fuse, yad, live-boot, live-tools, cryptsetup-initramfs
 Filename: ./Extra/upgrade-kernel_1.0.9_all.deb
-Size: 1176192
-MD5sum: 8a8a6235246eea5c320bd3f46637e807
-SHA1: 8d73ede90949c6020ae3075cf29666d7a864f141
-SHA256: 3973c3376564cf9810986923fd97a776f5d620a2c49e5bb78c2ae766b1b0aaab
-SHA512: fa32bdef58483cc7f9598362bd2f60a8fb84459e99adf0302cb13dc2e4851ef9506d27e031ddc44334cb936d2cc32842ae6b351d251209ab1d8755652048deda
+Size: 1176364
+MD5sum: b5ac6ac6c6230da02c911348a3117959
+SHA1: c130d9637d48775980569489b4cb769a05812e40
+SHA256: 2c950f0905027a3ce891bf19397f2d4d6908014769cd08aee8f3ff7b5313cb4b
+SHA512: 30b953aee49839e49237cbe0d0dd5672f6090eb7277f435ef2e05281af5095188877d946e1a5d1c57355e5f3d9d1c8db70e23799cf55ba5e7694f53ba24956a3
 Description: Install kernel in chroot
  And create initrd1.xz
  v1.0.8, fixed that extracting kernel version did not work as expected
