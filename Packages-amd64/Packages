@@ -3499,6 +3499,25 @@ Description: Install kernel in chroot
  And create initrd1.xz
  v1.0.8, fixed that extracting kernel version did not work as expected
 
+Package: upgrade-kernel
+Architecture: all
+Version: 1.0.9
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 2800
+Depends: libc6, xterm, xz-utils, cpio, bsdutils, gtkdialog, unionfs-fuse, yad, live-boot, live-tools, cryptsetup-initramfs
+Filename: ./Extra/upgrade-kernel_1.0.9_all.deb
+Size: 1176192
+MD5sum: 8a8a6235246eea5c320bd3f46637e807
+SHA1: 8d73ede90949c6020ae3075cf29666d7a864f141
+SHA256: 3973c3376564cf9810986923fd97a776f5d620a2c49e5bb78c2ae766b1b0aaab
+SHA512: fa32bdef58483cc7f9598362bd2f60a8fb84459e99adf0302cb13dc2e4851ef9506d27e031ddc44334cb936d2cc32842ae6b351d251209ab1d8755652048deda
+Description: Install kernel in chroot
+ And create initrd1.xz
+ v1.0.8, fixed that extracting kernel version did not work as expected
+ v1.0.9, support boot from nvme drive
+
 Package: weav
 Architecture: all
 Version: 9.1.1
@@ -5229,6 +5248,22 @@ MD5sum: a2b7f52456a8d2a6ec3e5fa61edfcd43
 SHA1: 71b5417fa971131bd41c2b1100f897d31368f41a
 SHA256: f97ededbd2e842bd81d7dddea423e2613c75eaea92df7dedfdb551c00c7a64cc
 SHA512: 9e9840135bd417ca2d3abbeb755028dd2cf799e71dbec9ebc09fde25dcdf735ec4e913087ce6587d393e701b3493788de86b1ba3f1dc9ab2536ffcbf3ccfe11b
+Description: Warning - This package works only in XenialDog!
+ .
+ For creating a *.squashfs module from changes (from /live/cow directory) or full system remaster (from / directory).
+
+Package: remaster-scripts
+Architecture: amd64
+Version: 1.0.3
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 57
+Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu
+Filename: ./Included/remaster-scripts_1.0.3_amd64.deb
+Size: 9316
+MD5sum: 4a112705e960609d131b9624668fa446
+SHA1: 3cb3a2ec69bffe457ae9ae8f309c3f6970961858
+SHA256: 4a72d1dbeed4f12d2e07c5d31aebb4192fca907ee71c59595ea2fca7910dc87a
+SHA512: f4be365c206e032859e47aaffad2d679770cd1d91eb516e7b0a4aca71cdc71fb23a25bd75f3955d6ca20af90d68d8d793c1952a1dff3a57c3e94ce3cbb924bca
 Description: Warning - This package works only in XenialDog!
  .
  For creating a *.squashfs module from changes (from /live/cow directory) or full system remaster (from / directory).
