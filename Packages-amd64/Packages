@@ -3469,6 +3469,47 @@ Description: Install kernel in chroot
  And create initrd1.xz
  v1.0.10, upgrade-kernel-mod, search latest version unsigned generic and create kernel package
 
+Package: upgrade-kernel-mod
+Architecture: all
+Version: 1.0.11
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 2800
+Depends: libc6, xterm, xz-utils, cpio, bsdutils, gtkdialog, unionfs-fuse, yad, live-boot, live-tools, cryptsetup-initramfs
+Conflicts: upgrade-kernel
+Replaces: upgrade-kernel
+Filename: ./Extra/upgrade-kernel-mod_1.0.11_all.deb
+Size: 1176692
+MD5sum: 06d3224f083c9f98a6f5d83c222e6331
+SHA1: 3567a09f6de2d9ec5b9baa0593b90d2e94cae4d4
+SHA256: 128a72eee1a8f54987243ea2265fd004569024db3ce874cfa9d4786df20f067b
+SHA512: e03b1a2fdd9eb0aa77c7950ec9ee8fe0c639e30c9d9744a4081abbe777facde7554ef3566212dd338e4d9a7b198908275b954d324a1a38549d3a6cd63883572a
+Description: Install kernel in chroot
+ And create initrd1.xz
+ v1.0.10, upgrade-kernel-mod, search latest version unsigned generic and create kernel package
+ v1.0.11, upgrade-kernel-mod, better support for encrypted savefile and btrfs
+
+Package: upgrade-kernel
+Architecture: all
+Version: 1.0.10
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 2800
+Depends: libc6, xterm, xz-utils, cpio, bsdutils, gtkdialog, unionfs-fuse, yad, live-boot, live-tools, cryptsetup-initramfs
+Filename: ./Extra/upgrade-kernel_1.0.10_all.deb
+Size: 1175164
+MD5sum: bf8c96eb00d8c258fef0cbb0997e9543
+SHA1: 6992aef8b76dc1e434c165755b1601d70d8cad7c
+SHA256: 7a5b167a82bdbc8343fbbf5f02da4b5724d6b7cc58889595250362c74573eb6e
+SHA512: 2f207973ce3a7a4447d178e30ac17aacc349f0e9f04a522afdd9b59ff47f230663886412123ab4e4e29c916f3d7218393ef4a1368227f737d980cd510d573f53
+Description: Install kernel in chroot
+ And create initrd1.xz
+ v1.0.8, fixed that extracting kernel version did not work as expected
+ v1.0.9, support boot from nvme drive
+ v1.0.10, better support for encrypted savefile and btrfs
+
 Package: upgrade-kernel
 Architecture: all
 Version: 1.0.6
